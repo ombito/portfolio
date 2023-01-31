@@ -1,0 +1,44 @@
+.heroImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .into-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+  }
+  
+  p {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+  
+  h1 {
+    font-size: 1.4rem;
+    margin: 2rem 0;
+  }
+  @media screen and (max-width: 640px) {
+    .hero-img h1 {
+        font-size: 2rem;
+    }
+  }
