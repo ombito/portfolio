@@ -1,0 +1,35 @@
+.form {
+    position: absolute;
+    top: 13cm;
+    left: 5cm;
+    transform: translateY(-50%);
+    width: 50%;
+  }
+  
+  form {
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  button.btn {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+  

@@ -11,9 +11,9 @@ const HeroImg = () => {
         <img className="into-img" src={IntoImg} alt="IntoImg"/>
     </div>
     <div className="content">
-        <p>Hello. It's me</p>
-        <h1>Alvin Fred Ombito</h1>
-        <h2>An innovative cloud Architect with vast experience in system administration, enterprise architecture, virtualization, managing database perfomance and security foundations.</h2>
+        <h1>Hello. It's me</h1>
+        <h2>Alvin Fred Ombito</h2>
+        <p>An innovative cloud Architect with vast experience in system administration, enterprise architecture, virtualization, managing database perfomance and security foundations.</p>
         <div>
             <Link to="/about" className="btn">Read More</Link>
         </div>

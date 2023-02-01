@@ -33,14 +33,9 @@
   .copyright {
     display: flex;
     align-items: flex-start;
-    margin-top: 1rem;
-    margin-left: 0;
+    margin-top: 0;
+    margin-right: 2cm;
     justify-content: flex-start;
-  }
-  
-  .copyright > FaCopyright {
-    margin-right: 0.5rem;
-    margin-left: 0;
   }
   
 
