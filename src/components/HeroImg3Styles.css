@@ -19,7 +19,7 @@
   .content {
     width: 100%;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
   }
   
   .img-stack {
@@ -31,5 +31,25 @@
     height: auto;
     object-fit: cover;
     margin-top: 1rem;
+  }
+  .heroImg .content h1 {
+    font-size: 1.4rem;
+    padding: 0.3rem 0 1.5rem;
+    text-align: left;
+    margin-right: 50px;
+  }
+  
+  .heroImg .content p {
+    font-size: 1.2rem;
+    padding: 0.3rem 0 1.5rem;
+    text-align: left;
+    margin-right: 700px;
+    margin-left: 70px;
+  }
+  .heroImg .content h2 {
+    font-size: 1.4rem;
+    padding: 0.3rem 0 1.5rem;
+    text-align: left;
+    margin-right: 750px;
   }
   

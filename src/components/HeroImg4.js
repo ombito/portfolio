@@ -11,7 +11,7 @@ const HeroImg4 = () => {
     </div>
     <div className="content">
         <p>Talk to me</p>
-        <h1>I am always interested to hear from talented individuals who</h1>
+        <h1>I am always interested to hear from talented individuals </h1>
     </div>
   </div>
 };
