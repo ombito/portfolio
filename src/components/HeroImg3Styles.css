@@ -24,12 +24,13 @@
   
   .img-stack {
     position: relative;
+    object-fit:
   }
   
   .img {
     width: 50%;
     height: auto;
-    object-fit: cover;
+    object-fit: initial;
     margin-top: 1rem;
   }
   .heroImg .content h1 {
