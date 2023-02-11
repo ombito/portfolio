@@ -10,8 +10,8 @@ const HeroImg4 = () => {
         <img className="into-img" src={IntoImg} alt="IntoImg"/> 
     </div>
     <div className="content">
-        <p>Talk to me</p>
-        <h1>I am always interested to hear from talented individuals </h1>
+        <h1>Talk to me</h1>
+        <p>I am always interested to hear from talented individuals </p>
     </div>
   </div>
 };
