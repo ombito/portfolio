@@ -3,19 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%
+    height: 100%;
   }
-  
-  .mask {
-    position: relative;
-  }
-  
-  .into-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
+
   .content {
     width: 100%;
     padding: 1rem;
@@ -23,34 +13,35 @@
   }
   
   .img-stack {
-    position: relative;
-    object-fit:
+    position: absolute;
+    object-fit: initial;
   }
   
   .img {
-    width: 50%;
-    height: auto;
-    object-fit: initial;
-    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
-  .heroImg .content h1 {
-    font-size: 1.4rem;
+  p {
+    position: relative;
+    font-size: 1rem;
     padding: 0.3rem 0 1.5rem;
-    text-align: left;
-    margin-right: 50px;
+    text-align: center;
   }
-  
-  .heroImg .content p {
-    font-size: 1.2rem;
+  h1 {
+    font-size: 2rem;
     padding: 0.3rem 0 1.5rem;
-    text-align: left;
-    margin-right: 700px;
-    margin-left: 70px;
-  }
-  .heroImg .content h2 {
-    font-size: 1.4rem;
-    padding: 0.3rem 0 1.5rem;
-    text-align: left;
+    text-align: center;
     margin-right: 750px;
+    margin-top: 100px;
   }
-  
+  h2 {
+    position: absolute;
+    top: 13cm;
+    font-size: 2rem;
+  }
+  p1 {
+    position: absolute;
+    top: 15cm;
+    text-align: left;
+  }
