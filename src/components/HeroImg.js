@@ -24,7 +24,7 @@ function HeroImg () {
             }}
           />
         </h2>
-        <p>An innovative cloud Architect with vast experience in system administration, enterprise architecture, virtualization, managing database perfomance and security foundations.</p>
+        <p>I am an innovative cloud Architect with vast experience in system administration, enterprise architecture, virtualization, managing database perfomance and security foundations.</p>
         <div>
             <Link to="/about" className="btn">Read More</Link>
         </div>
