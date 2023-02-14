@@ -1,48 +1,94 @@
 .heroImg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 
-  .content {
-    width: 100%;
-    padding: 1rem;
-    text-align: left;
-  }
-  
-  
-  .img-stack {
-    position: absolute;
-    object-fit: initial;
-  }
-  
-  .img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  p {
-    position: relative;
-    font-size: 1rem;
-    padding: 0.3rem 0 1.5rem;
-    text-align: center;
-  }
-  h1 {
-    font-size: 2rem;
-    padding: 0.3rem 0 1.5rem;
-    text-align: center;
-    margin-right: 750px;
-    margin-top: 100px;
-  }
-  h2 {
-    position: absolute;
-    top: 13cm;
-    font-size: 2rem;
-  }
-  p1 {
-    position: absolute;
-    top: 15cm;
-    text-align: left;
-  }
+.content {
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  background-color: rgba(19, 19, 19, 0.8);
+  color: #fff;
+  padding: 6rem 0;
+  padding-left: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.img-stack {
+  position: absolute;
+  object-fit: initial;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+p {
+  position: absolute;
+  font-size: 1rem;
+  margin-top: 20cm;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 0.3rem 0 1.5rem;
+  text-align: center;
+  margin-right: 750px;
+  margin-top: 100px;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  margin-bottom: 150rem;
+}
+
+.about-me p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Styling for the Journey section */
+.journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f7f7f7;
+}
+
+.journey h2 {
+  font-size: 2rem;
+  margin-bottom: 10rem;
+}
+
+.journey p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
