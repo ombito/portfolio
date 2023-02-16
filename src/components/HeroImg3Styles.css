@@ -81,8 +81,7 @@
 .journey p1 {
   font-size: 1.2rem;
   line-height: 1.5;
-  top: 5cm;
-  margin-top: 13cm;
+  margin-top: -126cm;
   text-align: left;
   margin-left: -30cm;
   position: absolute;
@@ -91,7 +90,7 @@
 .journey p2 {
   font-size: 1.2rem;
   line-height: 1.5;
-  margin-top: -309%;
+  margin-top: -123cm;
   text-align: left;
   position: absolute;
   margin-left: -75%;
@@ -101,7 +100,7 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -125cm;
+  margin-top: -119cm;
   left: 3cm;
 }
 .journey p4 {
@@ -109,7 +108,7 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -118cm;
+  margin-top: -113cm;
   left: 3cm;
 }
 .journey p5 {
@@ -117,7 +116,7 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -115cm;
+  margin-top: -110cm;
   margin-left: -75%;
 }
 
@@ -126,23 +125,36 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -110cm;
+  margin-top: -105cm;
   left: 3cm;
 }
   
 .journey p7 {
   font-size: 1.2rem;
-  top: 16cm;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  margin-top: -98cm;
+  left: 3cm;
 }
 
 .journey p8 {
   font-size: 1.2rem;
-  top: 18cm;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  margin-top: -95cm;
+  margin-left: -75%;
 }
 
 .journey p9 {
   font-size: 1.2rem;
-  top: 20cm;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  margin-top: -89cm;
+  margin-left: 3cm;
+  margin-right: 3cm;
 }
 
 .journey h3 {

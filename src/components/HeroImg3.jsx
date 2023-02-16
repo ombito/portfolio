@@ -25,7 +25,7 @@ const HeroImg3 = () => {
                 hurdles on performance of their duties. <br/> Accurately collecting feedback and assisting agents to resolve any challenges. <br/> Regularly communicating key talking points to agents both for informative purposes and for 
                 boosting sales performance. <br/> Identifying and escalating priority issues that need to be handled at a different level, and doing 
                 the necessary follow up of agent concerns</p6>
-            <p7>StepWise <br/> Data entry <br/> </p7>
+            <p7>StepWise <br/> Data entry, December 2020 - June 2021 <br/> Nairobi, Kenya</p7>
             <p8>Responsibilities</p8>
             <p9>As a data entry associate, my responsibilities were far from mundane. I was a data wizard, 
                 meticulously combing and rearranging information from source documents to ensure accuracy and 

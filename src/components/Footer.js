@@ -20,7 +20,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="copyright">
-              <FaCopyright size={15} style={{ color: "fff" }} />Copyright 2023. 
+              <FaCopyright size={15} style={{ color: "fff" }} />Ombito 2023. All rights reserved.
             </div>
         </div>
     </div>
