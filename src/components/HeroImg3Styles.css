@@ -60,6 +60,7 @@
   margin-bottom: 150rem;
   position: relative;
   top: -540px;
+  text-decoration: underline;
 }
 
 .about-me p {
@@ -85,6 +86,63 @@
   text-align: left;
   margin-left: -30cm;
   position: absolute;
+}
+
+.journey p2 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: -309%;
+  text-align: left;
+  position: absolute;
+  margin-left: -75%;
+}
+.journey p3 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  margin-top: -125cm;
+  left: 3cm;
+}
+.journey p4 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  margin-top: -118cm;
+  left: 3cm;
+}
+.journey p5 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  margin-top: -115cm;
+  margin-left: -75%;
+}
+
+.journey p6 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  margin-top: -110cm;
+  left: 3cm;
+}
+  
+.journey p7 {
+  font-size: 1.2rem;
+  top: 16cm;
+}
+
+.journey p8 {
+  font-size: 1.2rem;
+  top: 18cm;
+}
+
+.journey p9 {
+  font-size: 1.2rem;
+  top: 20cm;
 }
 
 .journey h3 {
