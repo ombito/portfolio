@@ -22,13 +22,13 @@ const HeroImg3 = () => {
             <p6>My primary role was providing sales support to field agents with an aim to help them achieve their sales targets. This was all the way from </p6>
             <p7>December 2020 - June 2021</p7>
             <p8>Data Entry ~ StepWise</p8>
-            <p9>As a data entry associate, my responsibilities were far from mundane. I was a data wizard, meticulously combing and rearranging information from source documents to ensure accuracy and completeness. I expertly entered this data into prescribed computer databases, files, and forms, ensuring that every single piece of information was in the right place. But my job wasn't just about inputting data, I was a master of organization, generating reports, storing completed work in designated locations and performing backup operations to ensure that data is safe and easily accessible. My keen eye for detail and ability to spot deficiencies, I was able to correct any incompatibilities, ensuring that the output was always accurate and error-free. My skills in transcribing information into the required electronic format were unparalleled, I was able to take raw data and transform it into actionable insights that drive the performance of the company. </p9>
+            <p9>As a data entry associate, my responsibilities were far from mundane. I was a data wizard, meticulously combing and rearranging information from source documents to ensure accuracy and completeness. I expertly entered this data into prescribed computer databases, files, and forms, ensuring that every single piece of information was in the right place. But my job wasn't just about inputting data, I was a master of generating reports, storing completed work in designated locations and performing backup operations to ensure that data is safe and easily accessible. My keen eye for detail and ability to spot deficiencies, I was able to correct any incompatibilities, ensuring that the output was always accurate and error-free. My skills in transcribing information into the required electronic format were unparalleled, I was able to take raw data and transform it into actionable insights that drive the performance of the company. </p9>
             <p11>Who says you can't have it all?</p11>
-            <p12>If you pay attention to the patterns of your life you'll realize everything always works out. Everything always takes you to a greater destination. You always grow and the things you think you can't survive you somehow divinely make it through. Thats life. Always remember that.</p12>
+            <p12>❝If you pay attention to the patterns of your life you'll realize everything always works out. Everything always takes you to a greater destination. You always grow and the things you think you can't survive you somehow divinely make it through. Thats life. Always remember that.❞</p12>
             <p13>~Anonymous</p13>
           </div>
           <div className="skills">
-            <h4>Skills</h4>
+            <h6>My Skillset</h6>
           </div>
           <div className="certifications">
             <h5>Certifications</h5>

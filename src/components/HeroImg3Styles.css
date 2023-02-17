@@ -16,7 +16,6 @@
   padding: 1rem;
   text-align: left;
 }
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -98,6 +97,7 @@
   left: 2cm;
   top: 17cm;
   border-radius: 10px;
+  opacity: 0.8;
 }
 
 .journey p2 {
@@ -210,7 +210,21 @@
   width: 300px;
   border-radius: 10px;
   margin: 10px;
+  cursor: pointer;
 }
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(236, 194, 6, 0.884);
+  transform: translateY(-5px);
+}
+
+.skills h6 {
+  font-size: 2rem;
+  right: 45%;
+  position: absolute;
+  bottom: -19cm;
+}
+
 .certifications h5 {
   font-size: 2rem;
   right: 45%;
@@ -224,15 +238,17 @@
   position: absolute;
 }
 .journey p11 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   color:rgb(65, 190, 82);
-  bottom: -53cm;
+  bottom: -55cm;
   position: absolute;
+  left: 6cm
 }
 .journey p12 {
-  font-size: 1.1rem;
-  bottom: -55cm;
+  font-size: 1.2rem;
+  line-height: normal;
+  bottom: -57cm;
   position: absolute;
   right: 3cm;
   left: 3cm;
@@ -241,5 +257,5 @@
   font-size: 1.1rem;
   right: 17cm;
   position: absolute;
-  bottom: -56cm;
+  bottom: -58cm;
 }
