@@ -79,32 +79,49 @@
 }
 
 .journey p1 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(3, 133, 255);
   line-height: 1.5;
   margin-top: -126cm;
   text-align: left;
-  margin-left: -30cm;
+  left: 3cm;
   position: absolute;
 }
 
+.journey::before {
+  content: "";
+  background-color: rgba(255, 0, 0, 0.5);
+  width: 8.5cm;
+  height: 100%;
+  position: absolute;
+  left: 2cm;
+  top: 17cm;
+  border-radius: 10px;
+}
+
 .journey p2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5;
-  margin-top: -123cm;
+  font-weight: bold;
+  margin-top: -126cm;
   text-align: left;
   position: absolute;
-  margin-left: -75%;
+  left: 11cm;
 }
 .journey p3 {
   font-size: 1.2rem;
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -119cm;
-  left: 3cm;
+  margin-top: -122cm;
+  left: 11cm;
+  right: 2cm;
 }
 .journey p4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(3, 133, 255);
   line-height: 1.5;
   text-align: left;
   position: absolute;
@@ -112,12 +129,13 @@
   left: 3cm;
 }
 .journey p5 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5;
+  font-weight: bold;
   text-align: left;
   position: absolute;
-  margin-top: -110cm;
-  margin-left: -75%;
+  margin-top: -113cm;
+  left: 11cm;
 }
 
 .journey p6 {
@@ -125,26 +143,30 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -105cm;
-  left: 3cm;
+  margin-top: -110cm;
+  left: 11cm;
+  right: 2cm;
 }
   
 .journey p7 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(3, 133, 255);
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -98cm;
+  margin-top: -104cm;
   left: 3cm;
 }
 
 .journey p8 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5;
+  font-weight: bold;
   text-align: left;
   position: absolute;
-  margin-top: -95cm;
-  margin-left: -75%;
+  margin-top: -104cm;
+  left: 11cm;
 }
 
 .journey p9 {
@@ -152,9 +174,9 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -89cm;
-  margin-left: 3cm;
-  margin-right: 3cm;
+  margin-top: -97cm;
+  left: 11cm;
+  right: 2cm;
 }
 
 .journey h3 {

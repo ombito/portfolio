@@ -19,8 +19,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #000;
-    opacity: 0.001;
 }
 .hero {
     height: 100%;

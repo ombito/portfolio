@@ -11,7 +11,7 @@ const HeroImg4 = () => {
     </div>
     <div className="content">
         <h1>Talk to me</h1>
-        <p>I am always interested to hear from talented individuals </p>
+        <p>I am always interested to hear from talented individuals especially on big projects. However, if you have any proposal feel free to use the form. </p>
     </div>
   </div>
 };
