@@ -23,6 +23,9 @@ const HeroImg3 = () => {
             <p7>December 2020 - June 2021</p7>
             <p8>Data Entry ~ StepWise</p8>
             <p9>As a data entry associate, my responsibilities were far from mundane. I was a data wizard, meticulously combing and rearranging information from source documents to ensure accuracy and completeness. I expertly entered this data into prescribed computer databases, files, and forms, ensuring that every single piece of information was in the right place. But my job wasn't just about inputting data, I was a master of organization, generating reports, storing completed work in designated locations and performing backup operations to ensure that data is safe and easily accessible. My keen eye for detail and ability to spot deficiencies, I was able to correct any incompatibilities, ensuring that the output was always accurate and error-free. My skills in transcribing information into the required electronic format were unparalleled, I was able to take raw data and transform it into actionable insights that drive the performance of the company. </p9>
+            <p11>Who says you can't have it all?</p11>
+            <p12>If you pay attention to the patterns of your life you'll realize everything always works out. Everything always takes you to a greater destination. You always grow and the things you think you can't survive you somehow divinely make it through. Thats life. Always remember that.</p12>
+            <p13>~Anonymous</p13>
           </div>
           <div className="skills">
             <h4>Skills</h4>
@@ -30,6 +33,43 @@ const HeroImg3 = () => {
           <div className="certifications">
             <h5>Certifications</h5>
             <p5>I build my skills through certifications, events, and industry news</p5>
+          </div>
+          <div className="card-container">
+            <div className="card">
+              <p10>Aviatrix Certified Engineer (ACE)</p10>
+            </div>
+            <div className="card">
+              <p10>AWS Cloud Practitioner</p10>
+            </div>
+            <div className="card">
+              <p10>Microsoft Solutions Architect-Expert (AZ-305)</p10>
+            </div><div className="card">
+              <p10>Fortinet (NSE 1-3)</p10>
+            </div>
+            <div className="card">
+              <p10>Sophos Central Endpoint and Server v3.0- Engineer</p10>
+            </div>
+            <div className="card">
+              <p10>Sophos Cloud Security</p10>
+            </div>
+            <div className="card">
+              <p10>Veeam XaaS Professional (VMXP)</p10>
+            </div>
+            <div className="card">
+              <p10>Veeam Technical Sales Proffessional (VMTSP)</p10>
+            </div>
+            <div className="card">
+              <p10>VTSP - VMware Cloud Foundation</p10>
+            </div>
+            <div className="card">
+              <p10>VTSP - VMware HCI (Hybrid-Convergence Infrastructure)</p10>
+            </div>
+            <div className="card">
+              <p10> SugarCRM Sales Specialist</p10>
+            </div>
+            <div className="card">
+              <p10> VTSP - VMware Server Virtualization</p10>
+            </div>
           </div>
         </div>
       </div>
