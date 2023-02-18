@@ -39,6 +39,17 @@
   margin: auto;
 }
 
+.socials{
+  position: relative;
+  left: 150px;
+  bottom: 1cm;
+
+}
+.copyright{
+  position: relative;
+  bottom: 2.8cm;
+  left: 15cm;
+}
 .img-stack {
   position: absolute;
   object-fit: initial;
@@ -56,7 +67,7 @@
 
 .about-me h2 {
   font-size: 2rem;
-  margin-bottom: 150rem;
+  margin-bottom: 130rem;
   position: relative;
   top: -15cm;
   text-decoration: underline;
@@ -82,7 +93,7 @@
   font-weight: bold;
   color: rgb(3, 133, 255);
   line-height: 1.5;
-  margin-top: -126cm;
+  margin-top: -109cm;
   text-align: left;
   left: 3cm;
   position: absolute;
@@ -97,14 +108,14 @@
   left: 2cm;
   top: 17cm;
   border-radius: 10px;
-  opacity: 0.8;
+  opacity: 0.3;
 }
 
 .journey p2 {
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: bold;
-  margin-top: -126cm;
+  margin-top: -109cm;
   text-align: left;
   position: absolute;
   left: 11cm;
@@ -114,7 +125,7 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -122cm;
+  margin-top: -105cm;
   left: 11cm;
   right: 2cm;
 }
@@ -125,7 +136,7 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -113cm;
+  margin-top: -98cm;
   left: 3cm;
 }
 .journey p5 {
@@ -134,7 +145,7 @@
   font-weight: bold;
   text-align: left;
   position: absolute;
-  margin-top: -113cm;
+  margin-top: -98cm;
   left: 11cm;
 }
 
@@ -143,7 +154,7 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -110cm;
+  margin-top: -96cm;
   left: 11cm;
   right: 2cm;
 }
@@ -155,7 +166,7 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -104cm;
+  margin-top: -88cm;
   left: 3cm;
 }
 
@@ -165,7 +176,7 @@
   font-weight: bold;
   text-align: left;
   position: absolute;
-  margin-top: -104cm;
+  margin-top: -88cm;
   left: 11cm;
 }
 
@@ -174,7 +185,7 @@
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -97cm;
+  margin-top: -81cm;
   left: 11cm;
   right: 2cm;
 }
@@ -199,7 +210,7 @@
   position:absolute;
   left: 2cm;
   right: 2cm;
-  bottom: -51cm;
+  bottom: -43cm;
 }
 
 .card {
@@ -224,31 +235,30 @@
   position: absolute;
   bottom: -19cm;
 }
-
 .certifications h5 {
   font-size: 2rem;
   right: 45%;
   position: absolute;
-  bottom: -40cm;
+  bottom: -32cm;
 }
 .certifications p5 {
   font-size: 1.2rem;
   left: 10%;
-  bottom: -41cm;
+  bottom: -33cm;
   position: absolute;
 }
 .journey p11 {
   font-size: 1.4rem;
   font-weight: bold;
   color:rgb(65, 190, 82);
-  bottom: -55cm;
+  bottom: -45cm;
   position: absolute;
   left: 6cm
 }
 .journey p12 {
   font-size: 1.2rem;
   line-height: normal;
-  bottom: -57cm;
+  bottom: -47cm;
   position: absolute;
   right: 3cm;
   left: 3cm;
@@ -257,7 +267,7 @@
   font-size: 1.1rem;
   right: 17cm;
   position: absolute;
-  bottom: -58cm;
+  bottom: -48cm;
 }
 .skillscontainer {
   max-width: 1000px;
@@ -273,9 +283,11 @@
 }
 
 .title-text {
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 30px;
+  left: 80px;
+  position: relative;
 }
 
 .skills-box {
@@ -320,7 +332,7 @@
 }
 
 .skills-per.python {
-  width: 90%;
+  width: 100%;
   background-color: #FFC107; 
 }
 
@@ -335,7 +347,7 @@
 }
 
 .skills-per.php {
-  width: 80%;
+  width: 90%;
   background-color: #FF4D4D; 
 }
 
