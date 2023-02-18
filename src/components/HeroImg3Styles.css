@@ -259,3 +259,110 @@
   position: absolute;
   bottom: -58cm;
 }
+.skillscontainer {
+  max-width: 1000px;
+  margin: 50px 0;
+  text-align: center;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: -30cm;
+  left: 200px;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.title-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.skills-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.skillsbar {
+  flex: 3;
+  height: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  position: relative;
+}
+
+.skills-per {
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: greenyellow;
+}
+
+.skills-per.computing {
+  width: 95%;
+  background-color: #4CAF50;
+}
+
+.skills-per.security {
+  width: 95%;
+  background-color: #008CBA;
+}
+
+.skills-per.python {
+  width: 90%;
+  background-color: #FFC107; 
+}
+
+.skills-per.javascript {
+  width: 85%;
+  background-color: #FF5733; 
+}
+
+.skills-per.networking {
+  width: 86%;
+  background-color: #9B59B6; 
+}
+
+.skills-per.php {
+  width: 80%;
+  background-color: #FF4D4D; 
+}
+
+.skills-per.html {
+  width: 90%;
+  background-color: #2ECC71; 
+}
+
+.skills-per.bootstrap {
+  width: 80%;
+  background-color: #1D1D1D; 
+}
+
+
+.tooltip {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.skills-per:hover .tooltip {
+  opacity: 0;
+}
+

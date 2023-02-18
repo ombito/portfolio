@@ -27,8 +27,72 @@ const HeroImg3 = () => {
             <p12>❝If you pay attention to the patterns of your life you'll realize everything always works out. Everything always takes you to a greater destination. You always grow and the things you think you can't survive you somehow divinely make it through. Thats life. Always remember that.❞</p12>
             <p13>~Anonymous</p13>
           </div>
-          <div className="skills">
-            <h6>My Skillset</h6>
+          <div className="skillscontainer">
+            <h6 className="title-text">My Skillset</h6>
+            <div className="skills-box">
+              <span className="title">Cloud Computing</span>
+              <div className="skillsbar">
+                <span className="skills-per computing">
+                  <span className="tooltip">95%</span>
+                </span>
+              </div>
+            </div>
+            <div className="skills-box">
+              <span className="title">Cloud Security</span>
+              <div className="skillsbar">
+                <span className="skills-per security">
+                  <span className="tooltip">95%</span>
+                </span>
+              </div>
+            </div>
+            <div className="skills-box">
+              <span className="title">Python</span>
+              <div className="skillsbar">
+                <span className="skills-per python">
+                  <span className="tooltip">90%</span>
+                </span>
+              </div>
+            </div>
+            <div className="skills-box">
+              <span className="title">Javascript</span>
+              <div className="skillsbar">
+                <span className="skills-per javascript">
+                  <span className="tooltip">85%</span>
+                </span>
+              </div>
+            </div>
+            <div className="skills-box">
+              <span className="title">Networking</span>
+              <div className="skillsbar">
+                <span className="skills-per networking">
+                  <span className="tooltip">70%</span>
+                </span>
+              </div>
+            </div>
+            <div className="skills-box">
+              <span className="title">PHP</span>
+              <div className="skillsbar">
+                <span className="skills-per php">
+                  <span className="tooltip">80%</span>
+                </span>
+              </div>
+            </div>
+            <div className="skills-box">
+              <span className="title">HTML</span>
+              <div className="skillsbar">
+                <span className="skills-per html">
+                  <span className="tooltip">90%</span>
+                </span>
+              </div>
+            </div>
+            <div className="skills-box">
+              <span className="title">Bootstrap</span>
+              <div className="skillsbar">
+                <span className="skills-per bootstrap">
+                  <span className="tooltip">80%</span>
+                </span>
+              </div>
+            </div>
           </div>
           <div className="certifications">
             <h5>Certifications</h5>
