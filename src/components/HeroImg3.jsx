@@ -89,7 +89,7 @@ const HeroImg3 = () => {
               </div>
             </div>
             <div className="skills-box">
-              <span className="title">Bootstrap</span>
+              <span className="title">Blockchain Development</span>
               <div className="skillsbar">
                 <span className="skills-per bootstrap">
                   <span className="tooltip">80%</span>
