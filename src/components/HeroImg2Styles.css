@@ -1,4 +1,7 @@
 .heroImg {
+    background-image: url("C:/Users/Big A/Desktop/elephant.jpg");
+    opacity: 20;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,6 +11,7 @@
   }
   
   .into-img {
+    background-size: cover;
     width: 100%;
     height: 100%;
     background-size: cover;

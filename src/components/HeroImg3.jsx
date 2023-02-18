@@ -1,6 +1,8 @@
 import React from 'react';
 import './HeroImg3Styles.css';
 import alvin from "../images/alvin.jpg";
+import tree from "../images/tree.jpg";
+import nasa from "../images/nasa.jpg";
 
 const HeroImg3 = () => {
   return (
@@ -8,6 +10,7 @@ const HeroImg3 = () => {
       <div>
       <img className='profile' src={alvin} width="500" height="540" />
       </div>
+
       <div className="about-me">
         <h2>About Me</h2>
         <p>I am an optimist, a data nerd, technologist, open-source enthusiast and a family man. I am a proud <br/> Kenyan who gets excited about travelling, swimming and book reading. When I am not at my desk, <br/> you can find me on my farm or spending weekends with my family and friends. I have a <br/>holistic approach to strategic thinking and hands on management.</p>
@@ -142,3 +145,9 @@ const HeroImg3 = () => {
 };
 
 export default HeroImg3;
+<div style={{
+        width: '150px',
+        height: '150px',
+        backgroundSize: 'cover',
+        backgroundImage: `url(${require('../images/tree.jpg')})`,
+      }}></div>

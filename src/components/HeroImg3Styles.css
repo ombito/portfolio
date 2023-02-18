@@ -1,5 +1,8 @@
+
 .hero-section {
-  background-color: #fff;
+  background-image: url("C:/Users/Big A/Desktop/tree.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .heroImg {
@@ -90,8 +93,7 @@
 
 .journey p1 {
   font-size: 1.1rem;
-  font-weight: bold;
-  color: rgb(3, 133, 255);
+  color: black;
   line-height: 1.5;
   margin-top: -109cm;
   text-align: left;
@@ -101,11 +103,12 @@
 
 .journey::before {
   content: "";
-  background-color: rgba(255, 0, 0, 0.5);
-  width: 8.5cm;
+  background-color: rgba(55, 65, 212, 0.5);
+  width: 92%;
   height: 100%;
   position: absolute;
-  left: 2cm;
+  left: 1.8cm;
+  right: 1.8cm;
   top: 17cm;
   border-radius: 10px;
   opacity: 0.3;
@@ -114,6 +117,7 @@
 .journey p2 {
   font-size: 1.1rem;
   line-height: 1.5;
+  color:rgba(236, 194, 6, 0.884);
   font-weight: bold;
   margin-top: -109cm;
   text-align: left;
@@ -124,6 +128,7 @@
   font-size: 1.2rem;
   line-height: 1.5;
   text-align: left;
+  color: white;
   position: absolute;
   margin-top: -105cm;
   left: 11cm;
@@ -131,8 +136,7 @@
 }
 .journey p4 {
   font-size: 1.1rem;
-  font-weight: bold;
-  color: rgb(3, 133, 255);
+  color: black;
   line-height: 1.5;
   text-align: left;
   position: absolute;
@@ -143,6 +147,7 @@
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: bold;
+  color:rgba(236, 194, 6, 0.884);
   text-align: left;
   position: absolute;
   margin-top: -98cm;
@@ -152,6 +157,7 @@
 .journey p6 {
   font-size: 1.2rem;
   line-height: 1.5;
+  color: white;
   text-align: left;
   position: absolute;
   margin-top: -96cm;
@@ -161,8 +167,7 @@
   
 .journey p7 {
   font-size: 1.1rem;
-  font-weight: bold;
-  color: rgb(3, 133, 255);
+  color: black;
   line-height: 1.5;
   text-align: left;
   position: absolute;
@@ -174,6 +179,7 @@
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: bold;
+  color:rgba(236, 194, 6, 0.884);
   text-align: left;
   position: absolute;
   margin-top: -88cm;
@@ -183,6 +189,7 @@
 .journey p9 {
   font-size: 1.2rem;
   line-height: 1.5;
+  color: white;
   text-align: left;
   position: absolute;
   margin-top: -81cm;
@@ -225,7 +232,7 @@
 }
 
 .card:hover {
-  box-shadow: 0 0 10px rgba(236, 194, 6, 0.884);
+  box-shadow: 0 0 15px rgb(253, 207, 3);
   transform: translateY(-5px);
 }
 

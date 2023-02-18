@@ -2,7 +2,7 @@ import "./HeroImg2Styles.css";
 
 import React from 'react';
 
-//import IntoImg from "../images/eye.jpg";
+import IntoImg from "../images/nasa.jpg";
 import { Link } from "react-router-dom";
 
 const HeroImg2 = () => {
