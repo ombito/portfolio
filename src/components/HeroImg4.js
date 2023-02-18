@@ -10,7 +10,7 @@ const HeroImg4 = () => {
         <img className="into-img" src={IntoImg} alt="IntoImg"/> 
     </div>
     <div className="content">
-        <h1>Talk to me</h1>
+        <h3>Talk to me</h3>
         <p>I am always interested to hear from talented individuals especially on big projects. However, if you have any proposal feel free to use the form. </p>
     </div>
   </div>
