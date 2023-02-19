@@ -103,7 +103,7 @@
 
 .journey::before {
   content: "";
-  background-color: rgba(55, 65, 212, 0.5);
+  background-color: silver;
   width: 92%;
   height: 100%;
   position: absolute;
@@ -111,7 +111,7 @@
   right: 1.8cm;
   top: 17cm;
   border-radius: 10px;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .journey p2 {
@@ -160,18 +160,17 @@
   color: white;
   text-align: left;
   position: absolute;
-  margin-top: -96cm;
+  margin-top: -93cm;
   left: 11cm;
   right: 2cm;
 }
   
 .journey p7 {
   font-size: 1.1rem;
-  color: black;
   line-height: 1.5;
   text-align: left;
   position: absolute;
-  margin-top: -88cm;
+  margin-top: -86cm;
   left: 3cm;
 }
 
@@ -182,7 +181,7 @@
   color:rgba(236, 194, 6, 0.884);
   text-align: left;
   position: absolute;
-  margin-top: -88cm;
+  margin-top: -86cm;
   left: 11cm;
 }
 
@@ -192,7 +191,7 @@
   color: white;
   text-align: left;
   position: absolute;
-  margin-top: -81cm;
+  margin-top: -79cm;
   left: 11cm;
   right: 2cm;
 }
