@@ -3,7 +3,7 @@ import "./HeroImgStyles.css";
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 
-import IntoImg from "../images/server.jpg";
+import IntoImg from "../images/car.jpg";
 import { Link } from "react-router-dom";
 
 function HeroImg () {
@@ -20,7 +20,7 @@ function HeroImg () {
               autoStart: true,
               loop: true,
               delay: 90,
-              strings: ["Alvin Fred Ombito"],
+              strings: ["Alvin Fred Ombito."],
             }}
           />
         </h2>

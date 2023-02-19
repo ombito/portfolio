@@ -39,11 +39,16 @@
         height: 100vh;
         background: rgba(0, 0, 0, 0.9);
         position: absolute;
-        top: 0;
-        left: 0;
+        bottom: -100%;
+        left: -100%;
         z-index: -3;
+        transition: 0.3s;
     }
-
+    .nav-menu.active{
+        left: 0;
+        top: 2cm;
+        position: relative;
+    }
     .nav-menu li {
         padding: 1rem 0;
     }
