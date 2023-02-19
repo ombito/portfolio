@@ -66,6 +66,10 @@
     top: 200px;
     left: 50%;
 }
+.btn:hover {
+    box-shadow: 0 0 25px rgb(253, 53, 3);
+    transform: translateY(-5px);
+  }
 
 @media screen and (max-width:640px) {
     .hero .content h1 {

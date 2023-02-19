@@ -43,6 +43,7 @@
         left: -100%;
         z-index: -3;
         transition: 0.3s;
+        cursor: pointer;
     }
     .nav-menu.active{
         left: 0;
@@ -51,6 +52,7 @@
     }
     .nav-menu li {
         padding: 1rem 0;
+        cursor: pointer;
     }
 
     .nav-menu li a {
@@ -59,5 +61,6 @@
     
     .hamburger {
         display: initial;
+        cursor: pointer;
     }
 }
