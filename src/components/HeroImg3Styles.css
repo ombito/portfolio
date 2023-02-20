@@ -383,4 +383,56 @@
 .skills-per:hover .tooltip {
   opacity: 0;
 }
-
+@media screen and (max-width: 768px) {
+  .about-me p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+    margin-left: -4rem;
+    margin-top: -0.4cm;
+  }
+  .journey p3{
+    margin-top: -755%;
+    margin-left: -75%;
+    color: orange;
+  }
+  .journey h3{
+    margin-top: 1.4cm;
+    font-size: 1.3rem;
+  }
+  .journey p1 {
+    margin-top: -845%;
+    margin-left: -5rem;
+  }
+  .journey p2 {
+    margin-left: -5cm;
+    margin-top: -840%;
+  }
+  .journey p4 {
+    margin-left: -2cm;
+    margin-top: -670%;
+  }
+  .journey p5 {
+    margin-top: -665%;
+    margin-left: -4cm;
+  }
+  .journey p6 {
+    margin-top: -565%;
+    margin-left: -9.5cm;  
+  }
+  .journey p7 {
+    margin-top: -470%;
+    margin-left: -2cm;
+  }
+  .journey p8 {
+    margin-top: -470%;
+    margin-left: -3.5cm;
+  }
+  .journey p9 {
+    margin-top: -340%;
+    margin-left: -10cm;
+    color: black;
+    font-size: 1.2rem;
+    width: 90%;
+  }
+}
