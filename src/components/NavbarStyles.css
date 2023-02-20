@@ -34,6 +34,7 @@
 
 @media screen and (max-width: 1040px) {
     .nav-menu {
+        background-color: black;
         flex-direction: column;
         justify-content: center;
         align-items: center;
