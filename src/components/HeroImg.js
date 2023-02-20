@@ -3,7 +3,7 @@ import "./HeroImgStyles.css";
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 
-import IntoImg from "../images/car.jpg";
+import IntoImg from "../images/hack.jpg";
 import { Link } from "react-router-dom";
 
 function HeroImg () {

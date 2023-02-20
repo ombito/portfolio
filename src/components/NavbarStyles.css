@@ -15,10 +15,12 @@
 }
 .nav-menu {
   display: flex;
+  list-style: none;
 }
 
 .nav-menu li {
   padding: 0 2rem;
+  margin-right: 2 rem;
 }
 
 .nav-menu li a {
@@ -26,7 +28,7 @@
     font-weight: 500;
 }
 
-.hamburger {
+.hambuger {
     display: none;
 }
 
@@ -36,10 +38,10 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        color: rgb(185, 42, 42);
         height: 100vh;
-        background: rgba(0, 0, 0, 0.9);
         position: absolute;
-        bottom: -100%;
+        top: 0;
         left: -100%;
         z-index: -3;
         transition: 0.3s;
@@ -53,13 +55,18 @@
     .nav-menu li {
         padding: 1rem 0;
         cursor: pointer;
+        align-items: center;
+        margin-bottom: 20px;
+        top: 2cm;
     }
 
     .nav-menu li a {
         font-size: 2rem;
+        position:absolute;
+        margin-top: 50px;
     }
     
-    .hamburger {
+    .hambuger {
         display: initial;
         cursor: pointer;
     }
