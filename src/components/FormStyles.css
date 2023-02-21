@@ -30,6 +30,23 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  
   }
+  @media (max-width: 740px) {
+    .form {
+      width: 100%;
+      max-width: 400px;
+      margin-left: -150px;
+      margin-top: 50px;
+    }
   
+    .form input,
+    .form textarea {
+      margin-bottom: 10px;
+    }
+  
+    .form button.btn {
+      margin-top: 10px;
+      margin-left: 140px;
+    }
+
+  }
