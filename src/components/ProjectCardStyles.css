@@ -60,7 +60,7 @@
 .pro-details p {
   font-size: 1rem;
   color: rgb(0, 0, 0);
-  margin: 144px -80px;
+  margin: 145px -80px;
   padding-bottom: 20px;
   width: 95%;
 }
@@ -106,5 +106,12 @@
     .footer {
       position: relative;
       margin-bottom: 0;
+    }
+    pro-details {
+      justify-content: flex-end;
+    }
+    .pro-btns {
+      margin-top: -80px;
+      text-align: left;
     }
 }
