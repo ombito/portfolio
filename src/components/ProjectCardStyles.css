@@ -56,17 +56,16 @@
   padding: 20px;
   margin-left: 20px;
 }
-.prodetails .projo2 {
-  font-size: 5rem;
-}
+
 .pro-details p {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  font-size: 1.1rem;
+  margin-bottom: px;
   color: rgb(0, 0, 0);
   text-align: justify;
   display: flex;
-  margin-left: -65px;
+  margin: -110px -100px;
   position: relative;
+  width: 100%;
 }
 
 .pro-btns .btn {
@@ -87,13 +86,26 @@
 }
 
   @media (max-width: 740px) {
+    body{
+      height: auto;
+      background-size: auto;
+      justify-content: center;
+
+    }
     .work-container {
       margin-top: 31cm;
       flex-direction: column;
+      height: auto;
+      background-size: 100% auto;
     }
     
     .project-container {
       max-width: 100%;
       margin: 20px;
+    }
+
+    .footer {
+      position: relative;
+      margin-bottom: 0;
     }
 }

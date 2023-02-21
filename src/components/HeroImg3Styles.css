@@ -383,7 +383,7 @@
 .skills-per:hover .tooltip {
   opacity: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 740px) {
   .about-me p {
     font-size: 1rem;
     line-height: 1.5;

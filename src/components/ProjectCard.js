@@ -15,7 +15,7 @@ const ProjectCard = () => {
           <img src={pro1} alt="CryptoChuo project" />
           <h2 className="project-title">CryptoChuo</h2>
           <div className="pro-details">
-            <p>CryptoChuo is an organisation that is dedicated to provide grassroot mass education on cryptocurrency and blockchain technologies</p>
+            <p>Is an organisation that is dedicated to provide grassroot mass education on cryptocurrency and blockchain technologies.</p>
             <div className="pro-btns">
               <NavLink to="cryptochuo.com" className="btn">View</NavLink>
             </div>
@@ -28,7 +28,7 @@ const ProjectCard = () => {
           <img src={pro2} alt="Binary project" />
           <h2 className="project-title">Flapcopters</h2>
           <div className="pro-details">
-            <p>Creative web designers</p>
+            <p>Is an air charter that offers private charter and heli safaris.</p>
             <div className="pro-btns">
               <NavLink to="flapcorporates.com" className="btn">View</NavLink>
             </div>
@@ -40,7 +40,7 @@ const ProjectCard = () => {
           <img src={pro3} alt="Binary project" />
           <h2 className="project-title">IoT</h2>
           <div className="pro-details">
-            <p className="projo2">This is an IoT project for smart agriculture that monitors soil moisture, water levels and organic content using a smartphone.</p>
+            <p className="projo2">This is an IoT project for smart farming that monitors soil moisture, water levels and organic content using a mobile app.</p>
           </div>
             <div className="pro-btns">
               <NavLink to="flapcorporates.com" className="btn">View</NavLink>
@@ -53,7 +53,7 @@ const ProjectCard = () => {
           <img src={pro4} alt="Moon project" />
           <h2 className="project-title">Kikapu</h2>
           <div className="pro-details">
-            <p>Creative web designers.</p>
+            <p>Is a creative mobile app development company.</p>
             <div className="pro-btns">
               <NavLink to="www.hireme.com" className="btn">View</NavLink>
             </div>
