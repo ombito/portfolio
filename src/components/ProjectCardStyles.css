@@ -86,11 +86,14 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 740px) {
-  .card-container {
-    max-width: 90%;
-    margin: auto;
-
-    grid-template-columns: 1fr;
-  }
+  @media (max-width: 740px) {
+    .work-container {
+      margin-top: 31cm;
+      flex-direction: column;
+    }
+    
+    .project-container {
+      max-width: 100%;
+      margin: 20px;
+    }
 }
