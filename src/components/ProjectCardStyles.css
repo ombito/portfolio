@@ -58,25 +58,24 @@
 }
 
 .pro-details p {
-  font-size: 1.1rem;
-  margin-bottom: px;
+  font-size: 1rem;
   color: rgb(0, 0, 0);
-  text-align: justify;
-  display: flex;
-  margin: -110px -100px;
-  position: relative;
-  width: 100%;
+  margin: 144px -80px;
+  padding-bottom: 20px;
+  width: 95%;
 }
 
-.pro-btns .btn {
-  padding: 10px 20px;
-  background-color: #333;
+.pro-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
   color: #fff;
   border-radius: 20px;
   text-decoration: none;
   font-size: 1.2rem;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 0;
+  margin-top: 60px;
 }
 
 .pro-btns .btn:hover {

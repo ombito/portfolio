@@ -26,9 +26,9 @@ const ProjectCard = () => {
       <div className="project-container">
         <div className="project-card">
           <img src={pro2} alt="Binary project" />
-          <h2 className="project-title">Flapcopters</h2>
+          <h2 className="project-title">Flap Corporates</h2>
           <div className="pro-details">
-            <p>Is an air charter that offers private charter and heli safaris.</p>
+            <p>Is an air charter that offers private jet charter and heli safaris.</p>
             <div className="pro-btns">
               <NavLink to="flapcorporates.com" className="btn">View</NavLink>
             </div>
@@ -40,7 +40,7 @@ const ProjectCard = () => {
           <img src={pro3} alt="Binary project" />
           <h2 className="project-title">IoT</h2>
           <div className="pro-details">
-            <p className="projo2">This is an IoT project for smart farming that monitors soil moisture, water levels and organic content using a mobile app.</p>
+            <p className="projo2">This is an ongoing IoT project for smart farming that monitors soil moisture, water levels and organic content using a mobile app.</p>
           </div>
             <div className="pro-btns">
               <NavLink to="flapcorporates.com" className="btn">View</NavLink>
@@ -53,7 +53,7 @@ const ProjectCard = () => {
           <img src={pro4} alt="Moon project" />
           <h2 className="project-title">Kikapu</h2>
           <div className="pro-details">
-            <p>Is a creative mobile app development company.</p>
+            <p>Is a creative web & mobile app development company.</p>
             <div className="pro-btns">
               <NavLink to="www.hireme.com" className="btn">View</NavLink>
             </div>
