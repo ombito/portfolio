@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    opacity: 2;
+    opacity: 0.4;
 }
 
 .mask::after {

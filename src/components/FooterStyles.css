@@ -71,7 +71,17 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: auto;
+    }
+    .socials {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      margin-left: -140%;
+    }
+    .copyright{
+      display: flex;
+      position: absolute;
+      margin-left: -180%;
     }
     
   }

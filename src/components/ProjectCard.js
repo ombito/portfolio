@@ -51,7 +51,7 @@ const ProjectCard = () => {
       <div className="project-container">
         <div className="project-card">
           <img src={pro4} alt="Moon project" />
-          <h2 className="project-title">Kikapu</h2>
+          <h2 className="project-title">9coderz</h2>
           <div className="pro-details">
             <p>Is a creative web & mobile app development company.</p>
             <div className="pro-btns">
