@@ -45,4 +45,9 @@
     .hero-img h1 {
         font-size: 2rem;
     }
+    .footer {
+      position: relative;
+      bottom: 0;
+      text-align: center;
+    }
   }
