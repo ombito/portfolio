@@ -33,24 +33,48 @@
   }
 
   @media (max-width: 740px) {
-    .form {
-      width: 100%;
-      max-width: 400px;
-      margin-left: -150px;
-      margin-top: 35px;
-    }
-  
-    .form input,
-    .form textarea {
-      margin-bottom: 10px;
-    }
-  
-    .form button.btn {
-      margin-top: -5px;
-      margin-left: 140px;
-    }
-
-    label {
-      color: white;
-    }
+    /* For screens smaller than 600px */
+@media (max-width: 600px) {
+  .form {
+    height: auto%;
   }
+  
+  #form {
+    height: 100%;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+}
+
+/* For screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  .form {
+    height: auto;
+  }
+  
+  #form {
+    height: 80%;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+}
+
+/* For screens larger than 900px */
+@media (min-width: 900px) {
+  .form {
+    height: auto;
+  }
+  
+  #form {
+    height: 70%;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+}
+}
