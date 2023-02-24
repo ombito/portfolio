@@ -384,55 +384,64 @@
   opacity: 0;
 }
 @media screen and (max-width: 740px) {
-  .about-me p {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: black;
-    margin-left: -4rem;
-    margin-top: -0.4cm;
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .journey p3{
-    margin-top: -755%;
-    margin-left: -75%;
-    color: orange;
+  
+  .profile {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 1rem;
   }
-  .journey h3{
-    margin-top: 1.4cm;
-    font-size: 1.3rem;
+  
+  .about-me {
+    text-align: center;
+    padding: 0 1rem;
   }
-  .journey p1 {
-    margin-top: -845%;
-    margin-left: -5rem;
+  
+  .journey {
+    text-align: left;
+    padding: 0 1rem;
   }
-  .journey p2 {
-    margin-left: -5cm;
-    margin-top: -840%;
+  
+  .skillscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
   }
-  .journey p4 {
-    margin-left: -2cm;
-    margin-top: -670%;
+  
+  .skills-box {
+    text-align: center;
+    margin: 1rem;
   }
-  .journey p5 {
-    margin-top: -665%;
-    margin-left: -4cm;
-  }
-  .journey p6 {
-    margin-top: -565%;
-    margin-left: -9.5cm;  
-  }
-  .journey p7 {
-    margin-top: -470%;
-    margin-left: -2cm;
-  }
-  .journey p8 {
-    margin-top: -470%;
-    margin-left: -3.5cm;
-  }
-  .journey p9 {
-    margin-top: -340%;
-    margin-left: -10cm;
-    color: black;
-    font-size: 1.2rem;
-    width: 90%;
+  
+  @media screen and (min-width: 768px) {
+    .hero-section {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+    .profile {
+      max-width: none;
+      margin-bottom: 0;
+    }
+    
+    .about-me {
+      text-align: left;
+      max-width: 50%;
+      padding: 0 1rem;
+    }
+    
+    .journey {
+      text-align: left;
+      max-width: 50%;
+      padding: 0 1rem;
+    }
   }
 }
+  
