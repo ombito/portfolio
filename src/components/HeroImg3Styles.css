@@ -439,8 +439,9 @@
     text-align: center;
     margin: 1rem;
   }
+}
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 900px) {
     .hero-section {
       flex-direction: row;
       justify-content: space-between;
@@ -463,5 +464,20 @@
       padding: 0 1rem;
     }
   }
+  @media (min-width: 600px) and (max-width: 900px) {
+    .form {
+      height: auto;
+    }
+    
+    #form {
+      height: 80%;
+    }
+    
+    .label{
+      color: white;
+    }
+    textarea {
+      height: 150px;
+    }
 }
   
