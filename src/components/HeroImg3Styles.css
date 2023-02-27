@@ -1,33 +1,14 @@
 
 .hero-section {
-  background-image: url("C:/Users/Big A/Desktop/tree.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.heroImg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  background-color: #fff;
+  background-color: rgb(123, 209, 238);
+  background-size: contain;
+  height: 330vh;
 }
 
 .content {
   width: 100%;
   padding: 1rem;
   text-align: left;
-}
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 150px;
-  background-color: rgba(19, 19, 19, 0.8);
-  color: #fff;
-  padding: 6rem 0;
-  padding-left: 1rem;
 }
 
 .navbar {
@@ -58,12 +39,6 @@
   object-fit: initial;
 }
 
-.img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .about-me {
   text-align: center;
 }
@@ -72,7 +47,7 @@
   font-size: 2rem;
   margin-bottom: 130rem;
   position: relative;
-  top: -15cm;
+  top: 2cm;
   text-decoration: underline;
 }
 
@@ -91,123 +66,141 @@
   margin-top: 10px;
 }
 
-.journey p1 {
+.techlink {
   font-size: 1.1rem;
-  color: black;
-  line-height: 1.5;
-  margin-top: -109cm;
+  color: white;
+  top: 4cm;
   text-align: left;
   left: 3cm;
   position: absolute;
 }
 
+.techlink p1 {
+  font-size: 1.2rem;
+  position: relative;
+  top: 8cm;
+  color:rgb(253, 207, 3)
+}
+
+.techlink p2 {
+  font-size: 1.2rem;
+  position: relative;
+  top: 8cm;
+  left: 3.3cm;
+}
+
+.techlink p3 {
+  font-size: 1.2rem;
+  width: 300%;
+  position: absolute;
+  top: 9cm;
+  left: 5cm;
+}
+
+.apollo {
+  font-size: 1.2rem;
+  left: 3cm;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 17cm;
+}
+
+.apollo p1 {
+  font-size: 1.2rem;
+  position: relative;
+  top: 0.1cm;
+  left: 0;
+  color:rgb(253, 207, 3)
+}
+
+.apollo p2 {
+  font-size: 1.2rem;
+  position: relative;
+  left: 2.3cm;;
+  top: 0.1cm;
+}
+
+.apollo p3 {
+  font-size: 1.2rem;
+  width: 900%;
+  position: absolute;
+  top: 1cm;
+  left: 5cm;
+  width: 300%;
+}
+
+.stepwise {
+  font-size: 1.2rem;
+  left: 3cm;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 22cm;
+}
+
+.stepwise p1 {
+  font-size: 1.2rem;
+  position: relative;
+  color:rgb(253, 207, 3)
+}
+
+.stepwise p2 {
+  position: relative;
+  left: 2.3cm;
+}
+
+.stepwise p3 {
+  position: absolute;
+  top: 1cm;
+  left: 5cm;
+  width: 400%;
+}
+
+.subsahara {
+  font-size: 1.2rem;
+  left: 3cm;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 29cm;
+}
+
+.subsahara p1 {
+  position: relative;
+  color:rgb(253, 207, 3)
+}
+
+.subsahara p2 {
+  position: relative;
+  left: 2.3cm;;
+}
+
+.subsahara p3 {
+  position: absolute;
+  top: 1cm;
+  left: 5cm;
+}
 .journey::before {
   content: "";
-  background-color: silver;
-  width: 92%;
-  height: 100%;
+  background-color: rgba(0, 0, 0, 0.897);
+  width: 96%;
+  height: 110%;
   position: absolute;
-  left: 1.8cm;
-  right: 1.8cm;
-  top: 17cm;
+  left: 1cm;
+  right: 1cm;
+  top: 11cm;
   border-radius: 10px;
-  opacity: 0.4;
-}
-
-.journey p2 {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color:rgba(236, 194, 6, 0.884);
-  font-weight: bold;
-  margin-top: -109cm;
-  text-align: left;
-  position: absolute;
-  left: 11cm;
-}
-.journey p3 {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  text-align: left;
-  color: white;
-  position: absolute;
-  margin-top: -105cm;
-  left: 11cm;
-  right: 2cm;
-}
-.journey p4 {
-  font-size: 1.1rem;
-  color: black;
-  line-height: 1.5;
-  text-align: left;
-  position: absolute;
-  margin-top: -98cm;
-  left: 3cm;
-}
-.journey p5 {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  font-weight: bold;
-  color:rgba(236, 194, 6, 0.884);
-  text-align: left;
-  position: absolute;
-  margin-top: -98cm;
-  left: 11cm;
-}
-
-.journey p6 {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  color: white;
-  text-align: left;
-  position: absolute;
-  margin-top: -93cm;
-  left: 11cm;
-  right: 2cm;
-}
-  
-.journey p7 {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  text-align: left;
-  position: absolute;
-  margin-top: -86cm;
-  left: 3cm;
-}
-
-.journey p8 {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  font-weight: bold;
-  color:rgba(236, 194, 6, 0.884);
-  text-align: left;
-  position: absolute;
-  margin-top: -86cm;
-  left: 11cm;
-}
-
-.journey p9 {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  color: white;
-  text-align: left;
-  position: absolute;
-  margin-top: -79cm;
-  left: 11cm;
-  right: 2cm;
+  opacity: 1
 }
 
 .journey h3 {
   font-size: 2rem;
   padding: 30px;
   position: absolute;
-  top: 15cm;
+  top: 8cm;
 }
-.profile {
-  width: 400px;
-  clip-path: circle();
-  margin-left: 28cm;
-  margin-top: 2cm;
-}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -222,6 +215,7 @@
 .card {
   border: 1px solid #ccc;
   flex-direction: column;
+  background-color: rgb(41, 151, 41);
   padding: 20px;
   flex-basis: 20%;
   width: 300px;
@@ -231,15 +225,17 @@
 }
 
 .card:hover {
-  box-shadow: 0 0 15px rgb(253, 207, 3);
+  box-shadow: 0 0 25px rgb(253, 207, 3);
   transform: translateY(-5px);
 }
 
-.skills h6 {
-  font-size: 2rem;
-  right: 45%;
+
+.certifications {
   position: absolute;
-  bottom: -19cm;
+  top: 17cm;
+  align-items: center;
+  width: 100%;
+  
 }
 .certifications h5 {
   font-size: 2rem;
@@ -253,35 +249,14 @@
   bottom: -33cm;
   position: absolute;
 }
-.journey p11 {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color:rgb(65, 190, 82);
-  bottom: -45cm;
-  position: absolute;
-  left: 6cm
-}
-.journey p12 {
-  font-size: 1.2rem;
-  line-height: normal;
-  bottom: -47cm;
-  position: absolute;
-  right: 3cm;
-  left: 3cm;
-}
-.journey p13{
-  font-size: 1.1rem;
-  right: 17cm;
-  position: absolute;
-  bottom: -48cm;
-}
+
 .skillscontainer {
   max-width: 1000px;
   margin: 50px 0;
   text-align: center;
   font-family: sans-serif;
   position: absolute;
-  bottom: -30cm;
+  top: 35cm;
   left: 200px;
   width: 100%;
   cursor: pointer;
@@ -383,6 +358,34 @@
 .skills-per:hover .tooltip {
   opacity: 0;
 }
+
+.word {
+  position: absolute;
+  bottom: -48cm;
+}
+
+.word p {
+  font-size: 1.6rem;
+  color: black;
+  top: -5rem;
+  text-transform: bold;
+  text-decoration: underline;
+}
+
+.word p4 {
+  font-size: 1.4rem;
+  color: rgb(13, 25, 190);
+}
+
+.word p5 {
+  font-size: 1.2rem;
+  color: black;
+  text-transform: bold;
+  bottom: -1cm;
+  position: absolute;
+  left: 50%;
+}
+
 @media screen and (max-width: 740px) {
   .hero-section {
     display: flex;

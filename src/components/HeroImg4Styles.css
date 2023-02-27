@@ -1,4 +1,6 @@
-
+.heroImg {
+    height: 110vh;
+}
 p {
     display: flex;
     text-align: left;
