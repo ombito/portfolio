@@ -402,7 +402,7 @@
   left: 50%;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 500px) {
   .hero-section {
     display: flex;
     flex-direction: column;
@@ -464,7 +464,7 @@
       padding: 0 1rem;
     }
   }
-  @media (min-width: 600px) and (max-width: 900px) {
+  @media (min-width: 500px) and (max-width: 900px) {
     .form {
       height: auto;
     }
