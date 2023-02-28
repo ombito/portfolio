@@ -397,6 +397,7 @@
     align-items: center;
     justify-content: center;
     height: 600vh;
+    width: 100%;
   }
   
   .certifications {
