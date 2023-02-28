@@ -263,18 +263,6 @@
 
 }
 
-.certification {
-  max-width: 1000px;
-  margin: 50px 0;
-  text-align: center;
-  font-family: sans-serif;
-  position: absolute;
-  top: 35cm;
-  left: 200px;
-  width: 100%;
-  cursor: pointer;
-}
-
 .word {
   position: relative;
 }
@@ -408,7 +396,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: 600vh;
   }
   
   .certifications {
@@ -423,21 +411,129 @@
     padding: 0 1rem;
   }
   
+  .about-me p {
+    position: absolute;
+    align-items: center;
+    left: 0.6cm;
+    right: 0.3cm;
+  }
+
   .journey {
+    background-color: #1D1D1D;
     text-align: left;
-    padding: 0 1rem;
+    position: absolute;
+    top: 15cm;
+    left: 0.6cm;
+  }
+  .journey h3{
+    position: absolute;
+    left: 80%;
   }
   
+  .techlink {
+    position: absolute;
+    font-size: 1px;
+    align-items: left;
+    left: 1px;
+    right: 1px;
+  }
+  .techlink p3 {
+    position: absolute;
+    align-items: left;
+    left: 0;
+    width: 22rem;
+    color: black;
+  }
+
+  .apollo {
+    position: absolute;
+    font-size: 1px;
+    align-items: left;
+    left: 1px;
+    right: 1px;
+    top: 21cm;
+  }
+  .apollo p3 {
+    position: absolute;
+    align-items: left;
+    left: 1px;
+    top: 1cm;
+    width: 22rem;
+    color: black;
+  }
+  .apollo p2 {
+    color: red;
+    position: absolute;
+    font-size: 1.2rem;
+    width: 51cm;
+    right: auto;
+  }
+
+  .stepwise {
+    position: absolute;
+    font-size: 1px;
+    align-items: left;
+    left: 1px;
+    right: 1px;
+    top: 32cm;
+  }
+  .stepwise p3 {
+    position: absolute;
+    align-items: left;
+    left: 10%;
+    font-size: 20px;
+    width: 22rem;
+    color: black;
+  }
+  .stepwise p2 {
+    position: absolute;
+    left: 0;
+    top: 6cm;
+    color: black;
+  }
   .skillscontainer {
-    display: flex;
+    display: column;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 2rem;
+    left: 1%;
+    top: 54cm;
+    width: 95%;
+    align-items: left;
+    position: absolute;
   }
   
+  .certifications {
+    display: column;
+    flex-wrap: wrap;
+    top: 40cm;
+    left: -2.7cm;
+    right: -1cm;
+    position: absolute;
+    margin: 50px 0;
+    text-align: center;
+    cursor: pointer;
+    width: 150%;
+
+  }
   .skills-box {
     text-align: center;
     margin: 1rem;
+  }
+  .card {
+    border: 1px solid #ccc;
+    flex-direction: column;
+    background-color: rgb(41, 151, 41);
+    padding: 10px 5px;
+    flex-basis: 20%;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 25px rgb(253, 207, 3);
+    transform: translateY(-5px);
+    transition: 25ms;
   }
 }
   

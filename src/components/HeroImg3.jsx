@@ -11,7 +11,7 @@ const HeroImg3 = () => {
 
       <div className="about-me">
         <h2>About Me</h2>
-        <p>As a cloud engineer, I have always been fascinated by the endless possibilities of cloud technology. With years of experience in the field, I have developed a deep understanding of how cloud solutions can be leveraged to drive business success and transformation. I have been involved in numerous projects that have helped organizations modernize their infrastructure, streamline their operations and enhance their customer experience. So you mean you are a solutions expert? It's okay, you can say it. I am drawn to cloud technology as it is an exciting and ever-evolving field that is pushing the boundaries of what is possible. When I am not at my desk, I enjoy taking road trips to discover new places and experience what mother nature has to offer. Ultimately, whether I am in the road or in the cloud I am unceasingly in pursuit of new opportunities to learn and advance my professional development.</p>
+        <p>As a cloud engineer, I have always been fascinated by the endless possibilities of cloud technology. With years of experience in the field, I have developed a deep understanding of how cloud solutions can be leveraged to drive business success and transformation. I have been involved in numerous projects that have helped organizations modernize their infrastructure, streamline their operations and enhance their customer experience. So you mean you are a solutions expert? It's okay, you can say it. I am drawn to cloud technology as it is an exciting and ever-evolving field that is pushing the boundaries of what is possible. I spend most of my time in Nairobi, Kenya, where I enjoy taking road trips to discover new places and experience what mother nature has to offer. Ultimately, whether I am in the road or in the cloud I am unceasingly in pursuit of new opportunities to learn and advance my professional development.</p>
         <div className="wrapper">
           <div className="journey">
             <h3>My Journey</h3>
@@ -23,15 +23,15 @@ const HeroImg3 = () => {
             <div className="apollo">
               <p1>2021 - 2022</p1>
               <p2>Support Manager ~ Apollo Agriculture</p2>
-              <p3> I was entrusted with leading a team of 50 agents charged with responsibilities of providing training on crucial subjects, offering sales insights that would enable them achieve their targets and maintaining consistent communication. To guarantee they accomplished their sales goals this required building a highly functioning team and setting clear performance metrics. Additionally, I was tasked with identifying and escalating high-priority matters to senior management, and carrying out requisite follow-up actions pertaining to agents feedback and concerns.</p3>
+              <p3> I was entrusted with leading a team of 50 agents charged with responsibilities of providing training on crucial subjects, offering sales insights that would enable them achieve their targets and maintaining consistent communication. To guarantee they accomplished their sales goals this required building a highly functioning team and setting clear performance metrics.</p3>
             </div>
             <div className="stepwise">
               <p1>2020 - 2021</p1>
               <p2>Data Entry ~ StepWise</p2>
-              <p3>As a data entry associate, my assigned duties entailed combing and rearranging information from source documents to ensure accuracy and completeness. I expertly entered this data into prescribed computer databases, files, and forms ensuring that every single piece of information was in the right place. But my job wasn't just about inputting data, I was a master of generating reports, storing completed work in designated locations and performing backup operations to ensure that data is safe and easily accessible. With my keen eye for detail and ability to spot deficiencies, I was able to correct any incompatibilities ensuring that the output was always accurate and error free. My skills in transcribing information into the required electronic format were unparalleled as I was able to take raw data and transform it into actionable insights that drive the performance of the company. </p3>
+              <p3>As a data entry associate, my assigned duties entailed combing and rearranging information from source documents to ensure accuracy and completeness. I expertly entered this data into prescribed computer databases, files, and forms ensuring that every single piece of information was in the right place. </p3>
             </div>
             <div className="subsahara">
-              <p1>2020 - 2022</p1>
+              <p1>2020 - 2023</p1>
               <p2>Research Analyst ~ Sub-sahara Research Services</p2>
               <p3>▸Writing reports </p3>
             </div>
