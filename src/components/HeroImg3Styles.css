@@ -504,14 +504,14 @@
   .certifications {
     display: column;
     flex-wrap: wrap;
-    top: 40cm;
-    left: -2.7cm;
-    right: -1cm;
+    top: 45cm;
+    left: auto;
+    right: -2cm;
     position: absolute;
     margin: 50px 0;
     text-align: center;
     cursor: pointer;
-    width: 150%;
+    width: 140%;
 
   }
   .skills-box {
@@ -524,6 +524,7 @@
     background-color: rgb(41, 151, 41);
     padding: 10px 5px;
     flex-basis: 20%;
+    height: 90%;
     width: 300px;
     border-radius: 10px;
     margin: 10px;
