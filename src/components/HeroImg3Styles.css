@@ -465,18 +465,18 @@
     }
   }
   @media (min-width: 500px) and (max-width: 900px) {
-    .form {
+    . {
       height: auto;
     }
     
-    #form {
+    . {
       height: 80%;
     }
     
-    .label{
+    . {
       color: white;
     }
-    textarea {
+    . {
       height: 150px;
     }
 }
