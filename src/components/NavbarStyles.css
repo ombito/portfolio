@@ -73,7 +73,8 @@
     .hambuger {
         display: initial;
         cursor: pointer;
-        position: relative;
+        position: absolute;
+        right: 1px;
         
     }
 }
