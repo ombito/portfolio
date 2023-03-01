@@ -32,7 +32,7 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .nav-menu {
         background-color: black;
         flex-direction: column;
@@ -40,7 +40,7 @@
         align-items: center;
         width: 100%;
         color: rgb(185, 42, 42);
-        height: 100vh;
+        height: 200vh;
         position: absolute;
         top: 0;
         left: -100%;
@@ -49,9 +49,12 @@
         cursor: pointer;
     }
     .nav-menu.active{
-        left: 0;
-        top: 2cm;
-        position: relative;
+        left: auto;
+        right: auto;
+        align-items: center;
+        top: 1cm;
+        position: absolute;
+        height: 40vh;
     }
     .nav-menu li {
         padding: 1rem 0;
