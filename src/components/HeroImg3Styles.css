@@ -43,6 +43,35 @@
   color: black;
   margin-bottom: 10rem;
 }
+.journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: -17%;
+}
+.techlink {
+  font-size: 1.2rem;
+  color: black;
+  bottom: 47cm;
+  text-align: left;
+  position: relative;
+}
+.techlink p1{
+  font-size: 1.2rem;
+  position: relative;
+  top: 5cm;
+  color: rgb(253, 207, 3);
+  left: 3rem;
+}
+.techlink p2{
+  font-size: 1.2rem;
+  position: relative;
+  top: 5cm;
+  color: rgb(253, 207, 3);
+  right: -90%;
+}
 .skills-box {
   display: flex;
   justify-content: space-between;
@@ -109,7 +138,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .socials {
     left: 0;
     margin-top: 1rem;
@@ -130,8 +159,16 @@
   .about-me p {
     font-size: 1rem;
     margin-bottom: 2rem;
+    margin-left: -5rem;
+    margin-right: 0.5rem;
   }
-
+.journey{
+  display: flex;
+  margin-bottom: 35rem;
+  top: 15cm;
+  position: relative;
+  opacity: none;
+}
   .techlink {
     font-size: 1rem;
     top: 2cm;
