@@ -27,6 +27,87 @@
   left: 150px;
   bottom: 1cm;
 }
+.about-me {
+  text-align: center;
+}
+.about-me h2 {
+  font-size: 2rem;
+  margin-bottom: 130rem;
+  position: relative;
+  top: 2cm;
+  text-decoration: underline;
+}
+.about-me p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: black;
+  margin-bottom: 10rem;
+}
+.skills-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skillsbar {
+  flex: 3;
+  height: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  position: relative;
+}
+
+.skills-per {
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: greenyellow;
+}
+
+.skills-per.computing {
+  width: 95%;
+  background-color: #4CAF50;
+}
+
+.skills-per.security {
+  width: 95%;
+  background-color: #008CBA;
+}
+
+.skills-per.python {
+  width: 100%;
+  background-color: #FFC107; 
+}
+
+.skills-per.javascript {
+  width: 85%;
+  background-color: #FF5733; 
+}
+
+.skills-per.networking {
+  width: 86%;
+  background-color: #9B59B6; 
+}
+
+.skills-per.php {
+  width: 90%;
+  background-color: #FF4D4D; 
+}
+
+.skills-per.html {
+  width: 90%;
+  background-color: #2ECC71; 
+}
+
+.skills-per.bootstrap {
+  width: 80%;
+  background-color: #1D1D1D; 
+}
+
 
 @media screen and (max-width: 400px) {
   .socials {
