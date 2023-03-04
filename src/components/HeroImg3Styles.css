@@ -79,6 +79,13 @@
   text-align: left;
   align-items: left;
 }
+.apollo {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 17cm;
+  text-align: left;
+  left: 3cm;
+}
 .skills-box {
   display: flex;
   justify-content: space-between;
