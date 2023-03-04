@@ -1,4 +1,3 @@
-
 .hero-section {
   background-color: rgb(123, 209, 238);
   background-size: contain;
@@ -23,559 +22,132 @@
   margin: auto;
 }
 
-.socials{
+.socials {
   position: relative;
   left: 150px;
   bottom: 1cm;
-
-}
-.copyright{
-  position: relative;
-  bottom: 2.8cm;
-  left: 15cm;
-}
-.img-stack {
-  position: absolute;
-  object-fit: initial;
 }
 
-.about-me {
-  text-align: center;
-}
-
-.about-me h2 {
-  font-size: 2rem;
-  margin-bottom: 130rem;
-  position: relative;
-  top: 2cm;
-  text-decoration: underline;
-}
-
-.about-me p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  color: black;
-  margin-bottom: 10rem;
-}
-
-.journey {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.techlink {
-  font-size: 1.1rem;
-  color: white;
-  top: 4cm;
-  text-align: left;
-  left: 3cm;
-  position: absolute;
-}
-
-.techlink p1 {
-  font-size: 1.2rem;
-  position: relative;
-  top: 8cm;
-  color:rgb(253, 207, 3)
-}
-
-.techlink p2 {
-  font-size: 1.2rem;
-  position: relative;
-  top: 8cm;
-  left: 3.3cm;
-}
-
-.techlink p3 {
-  font-size: 1.2rem;
-  width: 300%;
-  position: absolute;
-  top: 9cm;
-  left: 5cm;
-}
-
-.apollo {
-  font-size: 1.2rem;
-  left: 3cm;
-  text-align: left;
-  color: white;
-  position: absolute;
-  top: 17cm;
-}
-
-.apollo p1 {
-  font-size: 1.2rem;
-  position: relative;
-  top: 0.1cm;
-  left: 0;
-  color:rgb(253, 207, 3)
-}
-
-.apollo p2 {
-  font-size: 1.2rem;
-  position: relative;
-  left: 2.3cm;;
-  top: 0.1cm;
-}
-
-.apollo p3 {
-  font-size: 1.2rem;
-  width: 900%;
-  position: absolute;
-  top: 1cm;
-  left: 5cm;
-  width: 300%;
-}
-
-.stepwise {
-  font-size: 1.2rem;
-  left: 3cm;
-  text-align: left;
-  color: white;
-  position: absolute;
-  top: 22cm;
-}
-
-.stepwise p1 {
-  font-size: 1.2rem;
-  position: relative;
-  color:rgb(253, 207, 3)
-}
-
-.stepwise p2 {
-  position: relative;
-  left: 2.3cm;
-}
-
-.stepwise p3 {
-  position: absolute;
-  top: 1cm;
-  left: 5cm;
-  width: 400%;
-}
-
-.subsahara {
-  font-size: 1.2rem;
-  left: 3cm;
-  text-align: left;
-  color: white;
-  position: absolute;
-  top: 29cm;
-}
-
-.subsahara p1 {
-  position: relative;
-  color:rgb(253, 207, 3)
-}
-
-.subsahara p2 {
-  position: relative;
-  left: 2.3cm;;
-}
-
-.subsahara p3 {
-  position: absolute;
-  top: 1cm;
-  left: 5cm;
-}
-.journey::before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.897);
-  width: 96%;
-  height: 110%;
-  position: absolute;
-  left: 1cm;
-  right: 1cm;
-  top: 11cm;
-  border-radius: 10px;
-  opacity: 1
-}
-
-.journey h3 {
-  font-size: 2rem;
-  padding: 30px;
-  position: absolute;
-  top: 8cm;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  position:absolute;
-  left: 2cm;
-  right: 2cm;
-  bottom: -43cm;
-}
-
-.card {
-  border: 1px solid #ccc;
-  flex-direction: column;
-  background-color: rgb(41, 151, 41);
-  padding: 20px;
-  flex-basis: 20%;
-  width: 300px;
-  border-radius: 10px;
-  margin: 10px;
-  cursor: pointer;
-}
-
-.card:hover {
-  box-shadow: 0 0 25px rgb(253, 207, 3);
-  transform: translateY(-5px);
-}
-
-
-.certifications {
-  position: absolute;
-  top: 17cm;
-  align-items: center;
-  width: 100%;
-  
-}
-.certifications h5 {
-  font-size: 2rem;
-  right: 45%;
-  position: absolute;
-  bottom: -32cm;
-}
-.certifications p5 {
-  font-size: 1.2rem;
-  left: 10%;
-  bottom: -33cm;
-  position: absolute;
-}
-
-.skillscontainer {
-  max-width: 1000px;
-  margin: 50px 0;
-  text-align: center;
-  font-family: sans-serif;
-  position: absolute;
-  top: 35cm;
-  left: 200px;
-  width: 100%;
-  cursor: pointer;
-
-}
-
-.word {
-  position: relative;
-}
-
-.title-text {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 30px;
-  left: 80px;
-  position: relative;
-}
-
-.skills-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.title {
-  font-weight: bold;
-  flex: 1;
-  margin-right: 10px;
-}
-
-.skillsbar {
-  flex: 3;
-  height: 10px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  position: relative;
-}
-
-.skills-per {
-  display: block;
-  height: 100%;
-  border-radius: 5px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: greenyellow;
-}
-
-.skills-per.computing {
-  width: 95%;
-  background-color: #4CAF50;
-}
-
-.skills-per.security {
-  width: 95%;
-  background-color: #008CBA;
-}
-
-.skills-per.python {
-  width: 100%;
-  background-color: #FFC107; 
-}
-
-.skills-per.javascript {
-  width: 85%;
-  background-color: #FF5733; 
-}
-
-.skills-per.networking {
-  width: 86%;
-  background-color: #9B59B6; 
-}
-
-.skills-per.php {
-  width: 90%;
-  background-color: #FF4D4D; 
-}
-
-.skills-per.html {
-  width: 90%;
-  background-color: #2ECC71; 
-}
-
-.skills-per.bootstrap {
-  width: 80%;
-  background-color: #1D1D1D; 
-}
-
-
-.tooltip {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 14px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.skills-per:hover .tooltip {
-  opacity: 0;
-}
-
-.word {
-  position: absolute;
-  bottom: -48cm;
-}
-
-.word p {
-  font-size: 1.6rem;
-  color: black;
-  top: -5rem;
-  text-transform: bold;
-  text-decoration: underline;
-}
-
-.word p4 {
-  font-size: 1.4rem;
-  color: rgb(13, 25, 190);
-}
-
-.word p5 {
-  font-size: 1.2rem;
-  color: black;
-  text-transform: bold;
-  bottom: -1cm;
-  position: absolute;
-  left: 50%;
-}
-
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 600vh;
-    width: 100%;
-  }
-  
-  .certifications {
-    position: absolute;
-    top: 17cm;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .about-me {
-    text-align: center;
-    padding: 0 1rem;
-  }
-  
-  .about-me p {
-    position: absolute;
-    align-items: center;
-    left: 0.6cm;
-    right: 0.3cm;
-  }
-
-  .journey {
-    background-color: #1D1D1D;
-    text-align: left;
-    position: absolute;
-    top: 15cm;
-    left: 0.6cm;
-  }
-  .journey h3{
-    position: absolute;
-    left: 80%;
-  }
-  
-  .techlink {
-    position: absolute;
-    font-size: 1px;
-    align-items: left;
-    left: 1px;
-    right: 1px;
-  }
-  .techlink p3 {
-    position: absolute;
-    align-items: left;
+@media screen and (max-width: 400px) {
+  .socials {
     left: 0;
-    width: 22rem;
-    color: black;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .copyright {
+    position: relative;
+    bottom: 1rem;
+    left: 0;
+  }
+
+  .about-me h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .about-me p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .techlink {
+    font-size: 1rem;
+    top: 2cm;
+    left: 1cm;
+  }
+
+  .techlink p1 {
+    font-size: 1rem;
+    top: 5cm;
+  }
+
+  .techlink p2 {
+    font-size: 1rem;
+    left: 2cm;
+    top: 5cm;
+  }
+
+  .techlink p3 {
+    font-size: 1rem;
+    top: 6cm;
+    left: 2cm;
+    width: 200%;
   }
 
   .apollo {
-    position: absolute;
-    font-size: 1px;
-    align-items: left;
-    left: 1px;
-    right: 1px;
-    top: 21cm;
+    font-size: 1rem;
+    left: 1cm;
+    top: 10cm;
   }
-  .apollo p3 {
-    position: absolute;
-    align-items: left;
-    left: 1px;
-    top: 1cm;
-    width: 22rem;
-    color: black;
+
+  .apollo p1 {
+    font-size: 1rem;
+    top: 0;
+    left: 0;
   }
+
   .apollo p2 {
-    color: red;
-    position: absolute;
-    font-size: 1.2rem;
-    width: 51cm;
-    right: auto;
+    font-size: 1rem;
+    left: 1cm;
+    top: 0;
+  }
+
+  .apollo p3 {
+    font-size: 1rem;
+    top: 1cm;
+    left: 1cm;
+    width: 200%;
   }
 
   .stepwise {
-    position: absolute;
-    font-size: 1px;
-    align-items: left;
-    left: 1px;
-    right: 1px;
-    top: 32cm;
+    font-size: 1rem;
+    left: 1cm;
+    top: 15cm;
   }
-  .stepwise p3 {
-    position: absolute;
-    align-items: left;
-    left: 10%;
-    font-size: 20px;
-    width: 22rem;
-    color: black;
-  }
-  .stepwise p2 {
-    position: absolute;
-    left: 0;
-    top: 6cm;
-    color: black;
-  }
-  .skillscontainer {
-    display: column;
-    flex-wrap: wrap;
-    left: 1%;
-    top: 54cm;
-    width: 95%;
-    align-items: left;
-    position: absolute;
-  }
-  
-  .certifications {
-    display: column;
-    flex-wrap: wrap;
-    top: 45cm;
-    left: auto;
-    right: -2cm;
-    position: absolute;
-    margin: 50px 0;
-    text-align: center;
-    cursor: pointer;
-    width: 140%;
 
+  .stepwise p1 {
+    font-size: 1rem;
   }
-  .skills-box {
-    text-align: center;
-    margin: 1rem;
+
+  .stepwise p2 {
+    left: 1cm;
   }
-  .card {
-    border: 1px solid #ccc;
-    flex-direction: column;
-    background-color: rgb(41, 151, 41);
-    padding: 10px 5px;
-    flex-basis: 20%;
-    height: 90%;
-    width: 300px;
-    border-radius: 10px;
-    margin: 10px;
-    cursor: pointer;
+
+  .stepwise p3 {
+    top: 1cm;
+    left: 1cm;
+    width: 200%;
   }
-  
-  .card:hover {
-    box-shadow: 0 0 25px rgb(253, 207, 3);
-    transform: translateY(-5px);
-    transition: 25ms;
+
+  .subsahara {
+    font-size: 1rem;
+    left: 1cm;
+    top: 20cm;
+  }
+
+  .subsahara p1 {
+    font-size: 1rem;
+  }
+
+  .subsahara p2 {
+    left: 1cm;
+  }
+
+  .subsahara p3 {
+    top: 1cm;
+    left: 1cm;
+    width: 200%;
+  }
+
+  .journey::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.897);
+    width: 90%;
+    height: 110%;
+    position: absolute;
+    left: 1cm;
+    right: 1cm;
+    top: 
   }
 }
-  
-  @media screen and (min-width: 900px) {
-    .hero-section {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-    
-    .profile {
-      max-width: none;
-      margin-bottom: 0;
-    }
-    
-    .about-me {
-      text-align: left;
-      max-width: 50%;
-      padding: 0 1rem;
-    }
-    
-    .journey {
-      text-align: left;
-      max-width: 50%;
-      padding: 0 1rem;
-    }
-  }
-  @media (min-width: 500px) and (max-width: 900px) {
-    . {
-      height: auto;
-    }
-    
-    . {
-      height: 80%;
-    }
-    
-    . {
-      color: white;
-    }
-    . {
-      height: 150px;
-    }
-}
-  
