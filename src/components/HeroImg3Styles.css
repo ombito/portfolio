@@ -54,9 +54,9 @@
 .techlink {
   font-size: 1.2rem;
   color: black;
-  bottom: 47cm;
   text-align: left;
   position: relative;
+  top: -50cm;
 }
 .techlink p1{
   font-size: 1.2rem;
@@ -71,6 +71,13 @@
   top: 5cm;
   color: rgb(253, 207, 3);
   right: -90%;
+}
+.techlink p3 {
+  font-size: 1.2rem;
+  position: relative;
+  top: 6cm;
+  text-align: left;
+  align-items: left;
 }
 .skills-box {
   display: flex;
