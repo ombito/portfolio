@@ -156,6 +156,17 @@
   position: relative;
   color:rgb(253, 207, 3);
 }
+.skillscontainer {
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  top: 22cm;
+  width: 80%;
+  align-items: center;
+  left: 10%;
+  text-align: center;
+  margin: 50px 0;
+}
 .skillsbar {
   flex: 3;
   height: 10px;
@@ -226,11 +237,11 @@
   position:absolute;
   left: 2cm;
   right: 2cm;
-  bottom: -43cm;
+  top: 60%;
 }
 .certifications {
   position: absolute;
-  top: 105%;
+  top: 180%;
   align-items: center;
 }
 .certifications h5{
