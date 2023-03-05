@@ -161,67 +161,6 @@
 .subsahara p2 {
   position: relative;
   color:rgb(253, 207, 3);
-  left: 0;
-}
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  position:absolute;
-  left: 2cm;
-  right: 2cm;
-  bottom: -43cm;
-}
-
-.card {
-  border: 1px solid #ccc;
-  flex-direction: column;
-  background-color: rgb(41, 151, 41);
-  padding: 20px;
-  flex-basis: 20%;
-  width: 300px;
-  border-radius: 10px;
-  margin: 10px;
-  cursor: pointer;
-}
-
-.card:hover {
-  box-shadow: 0 0 25px rgb(253, 207, 3);
-  transform: translateY(-5px);
-}
-
-
-.certifications {
-  position: absolute;
-  top: 17cm;
-  align-items: center;
-  width: 100%;
-  
-}
-.certifications h5 {
-  font-size: 2rem;
-  right: 45%;
-  position: absolute;
-  bottom: -32cm;
-}
-.certifications p5 {
-  font-size: 1.2rem;
-  left: 10%;
-  bottom: -33cm;
-  position: absolute;
-}
-
-.skillscontainer {
-  max-width: 1000px;
-  margin: 50px 0;
-  text-align: center;
-  font-family: sans-serif;
-  position: absolute;
-  top: 35cm;
-  left: 200px;
-  width: 100%;
-  cursor: pointer;
 }
 .skillsbar {
   flex: 3;
@@ -311,6 +250,7 @@
   margin-bottom: 35rem;
   top: 15cm;
   position: relative;
+  opacity: none;
 }
   .techlink {
     font-size: 1rem;
@@ -378,6 +318,7 @@
   .stepwise p3 {
     top: 1cm;
     left: 1cm;
+    width: 200%;
   }
 
   .subsahara {
@@ -397,6 +338,7 @@
   .subsahara p3 {
     top: 1cm;
     left: 1cm;
+    width: 200%;
   }
 
 }
