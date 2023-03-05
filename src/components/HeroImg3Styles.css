@@ -51,6 +51,12 @@
   margin-top: 10px;
   margin-left: -17%;
 }
+.journey h3 {
+  font-size: 2rem;
+  position: relative;
+  bottom: 47cm;
+  left: 8%;
+}
 .techlink {
   font-size: 1.2rem;
   color: black;
@@ -85,6 +91,19 @@
   top: 17cm;
   text-align: left;
   left: 3cm;
+}
+.apollo p1 {
+  font-size: 1.2rem;
+  position: relative;
+  top: 0.1cm;
+  color: rgb(253, 207, 3)
+}
+.apollo p2 {
+  font-size: 1.2rem;
+  position: relative;
+  top: -0.9cm;
+  right: -68%;
+  color: rgb(253, 207, 3)
 }
 .skills-box {
   display: flex;
