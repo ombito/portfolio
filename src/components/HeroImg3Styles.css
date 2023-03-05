@@ -62,48 +62,63 @@
   color: black;
   text-align: left;
   position: relative;
-  top: -50cm;
+  top: -52cm;
+  left: -7%;
+  right: 5%;
+  
 }
 .techlink p1{
   font-size: 1.2rem;
   position: relative;
   top: 5cm;
   color: rgb(253, 207, 3);
-  left: 3rem;
+  left: 10%;
 }
 .techlink p2{
   font-size: 1.2rem;
   position: relative;
   top: 5cm;
   color: rgb(253, 207, 3);
-  right: -90%;
+  right: -85%;
 }
 .techlink p3 {
   font-size: 1.2rem;
+  display: flex;
   position: relative;
   top: 6cm;
+  left: 10%;
   text-align: left;
   align-items: left;
 }
 .apollo {
   font-size: 1.2rem;
   position: absolute;
-  top: 17cm;
+  top: 13cm;
   text-align: left;
-  left: 3cm;
+  align-items: left;
+  left: 7%;
+  right: 1%;
 }
 .apollo p1 {
   font-size: 1.2rem;
   position: relative;
-  top: 0.1cm;
-  color: rgb(253, 207, 3)
+  top: 1cm;
+  color: rgb(253, 207, 3);
+  left: -1%;
 }
 .apollo p2 {
   font-size: 1.2rem;
   position: relative;
-  top: -0.9cm;
+  top: 0.7cm;
   right: -68%;
   color: rgb(253, 207, 3)
+}
+.apollo p3 {
+  font-size: 1.2rem;
+  position: relative;
+  top: 2cm;
+  align-items: left;
+  display: flex;
 }
 .skills-box {
   display: flex;
@@ -111,7 +126,28 @@
   align-items: center;
   margin-bottom: 20px;
 }
-
+.stepwise {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 17cm;
+}
+.stepwise p1 {
+  font-size: 1.2rem;
+  position: relative;
+  color:rgb(253, 207, 3);
+}
+.stepwise p2 {
+  position: relative;
+  left: 3cm;
+  color:rgb(253, 207, 3);
+}
+.stepwise p3 {
+  position: relative;
+  align-items: left;
+  display: flex;
+  left: 7%;
+  text-align: left;
+}
 .skillsbar {
   flex: 3;
   height: 10px;
