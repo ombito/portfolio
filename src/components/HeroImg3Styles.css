@@ -1,7 +1,7 @@
 .hero-section {
   background-color: rgb(123, 209, 238);
   background-size: contain;
-  height: 330vh;
+  height: 270vh;
 }
 
 .content {
@@ -156,23 +156,37 @@
   position: relative;
   color:rgb(253, 207, 3);
 }
+.tooltip {
+  position: absolute;
+  font-size: 12px;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  top: -9px;
+  transition: opacity 0.3s ease-in-out;
+}
+.title-text {
+  font-size: 2rem;
+}
 .skillscontainer {
   position: absolute;
   cursor: pointer;
   text-align: center;
-  top: 22cm;
-  width: 80%;
+  top: 20cm;
+  width: 70%;
   align-items: center;
   left: 10%;
   text-align: center;
   margin: 50px 0;
 }
 .skillsbar {
-  flex: 3;
+  flex: 4;
   height: 10px;
   background-color: #f1f1f1;
   border-radius: 5px;
   position: relative;
+  left: 2%;
+  align-items: left;
+  text-align: center;
 }
 .skills-box {
   display: flex;
@@ -201,7 +215,7 @@
 }
 
 .skills-per.python {
-  width: 100%;
+  width: 90%;
   background-color: #FFC107; 
 }
 
@@ -227,7 +241,7 @@
 
 .skills-per.bootstrap {
   width: 80%;
-  background-color: #1D1D1D; 
+  background-color: greenyellow; 
 }
 .card-container {
   display: flex;
@@ -241,7 +255,7 @@
 }
 .certifications {
   position: absolute;
-  top: 180%;
+  top: 170%;
   align-items: center;
 }
 .certifications h5{
@@ -266,6 +280,35 @@
 .card:hover {
   box-shadow: 0 0 25px rgb(253, 207, 3);
   transform: translateY(-5px);
+}
+.word {
+  display: flex;
+  bottom: 20%;
+  position: relative;
+  width: 100%;
+  align-items: left;
+}
+.word p {
+  font-size: 1.4rem;
+  position: relative;
+  top: 31rem;
+  align-items: center;
+  display: flex;
+  width: 200%;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.word p4 {
+  font-size: 1.2rem;
+  position: relative;
+  top: 35rem;
+  width: 550%;
+  left: -10%;
+}
+.word p5 {
+  position: relative;
+  top: 40rem;
+  left: -30%;
 }
 @media screen and (max-width: 450px) {
   .socials {
