@@ -46,6 +46,7 @@
   line-height: 1.5;
   color: black;
   margin-bottom: 10rem;
+  width: 90%;
 }
 .line {
   border-bottom: 4px solid rgb(43, 43, 99);
@@ -157,6 +158,7 @@
   left: 7%;
   text-align: left;
   top: 0.6cm;
+  width: 90%;
 }
 .subsahara {
   font-size: 1.2em;
@@ -458,34 +460,39 @@
 
   .stepwise p3 {
     top: 1rem;
-    left: 2rem;
+    left: 2.4rem;
     width: 85%;
   }
 
   .subsahara {
+    position: relative;
     font-size: 1rem;
-    left: 1cm;
-    top: 21cm;
+    left: 9%;
+    top: 14cm;
   }
 
   .subsahara p1 {
     font-size: 1rem;
+    align-items: left;
+    width: 100%;
+    left: 1rem;
   }
 
   .subsahara p2 {
-    left: 1cm;
+    left: 1rem;
+    width: 140%;
   }
 
   .subsahara p3 {
+    font-size: 1rem;
     top: 1cm;
-    left: 1cm;
-    width: 200%;
+    left: -80%;
   }
   .skillscontainer {
-  top: 36cm;
+  top: 40cm;
 }
   .certifications {
-  top: 47cm;
+  top: 51cm;
 }
   .footer-container {
   display: flex;
