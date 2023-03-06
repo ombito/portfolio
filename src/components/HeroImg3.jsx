@@ -1,8 +1,6 @@
 import React from 'react';
 import './HeroImg3Styles.css';
-import alvin from "../images/alvin.jpg";
-import tree from "../images/tree.jpg";
-import nasa from "../images/nasa.jpg";
+
 
 const HeroImg3 = () => {
   return (
