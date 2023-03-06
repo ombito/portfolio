@@ -21,10 +21,14 @@
   width: 100%;
   margin: auto;
 }
-
+.copyright {
+  position: relative;
+  left: -47%;
+  bottom: 150%;
+}
 .socials {
   position: relative;
-  left: 150px;
+  left: 20px;
   bottom: 1cm;
 }
 .about-me {
@@ -64,7 +68,6 @@
   position: relative;
   top: -52cm;
   left: -7%;
-  right: 5%;
   
 }
 .techlink p1{
@@ -78,8 +81,8 @@
   font-size: 1.2rem;
   position: relative;
   top: 5cm;
+  left: 20%;
   color: rgb(253, 207, 3);
-  right: -85%;
 }
 .techlink p3 {
   font-size: 1.2rem;
@@ -104,13 +107,13 @@
   position: relative;
   top: 1.5cm;
   color: rgb(253, 207, 3);
-  left: -1%;
+  left: -1.5%;
 }
 .apollo p2 {
   font-size: 1.2rem;
   position: relative;
-  top: 0.7cm;
-  right: -68%;
+  top: 1.5cm;
+  left: 4%;
   color: rgb(253, 207, 3)
 }
 .apollo p3 {
@@ -119,20 +122,23 @@
   top: 2cm;
   align-items: left;
   display: flex;
+  left: -1rem;
 }
 .stepwise {
   font-size: 1.2rem;
   position: absolute;
-  top: 17cm;
+  top: 18cm;
+  align-items: left;
 }
 .stepwise p1 {
   font-size: 1.2rem;
   position: relative;
   color:rgb(253, 207, 3);
+  left: -32%;
 }
 .stepwise p2 {
   position: relative;
-  left: 3cm;
+  left: -26%;
   color:rgb(253, 207, 3);
 }
 .stepwise p3 {
@@ -141,12 +147,14 @@
   display: flex;
   left: 7%;
   text-align: left;
+  top: 0.6cm;
 }
 .subsahara {
   font-size: 1.2em;
   position: absolute;
   display: flex;
-  top: 95%;
+  top: 21.5cm;
+  left: 5.5%;
 }
 .subsahara p1 {
   position: relative;
@@ -155,28 +163,39 @@
 .subsahara p2 {
   position: relative;
   color:rgb(253, 207, 3);
+  left: 11%;
+}
+.subsahara p3{
+  font-size: 1.2rem;
+  display: flex;
+  position: relative;
+  top: 1cm;
+  left: -80%;
+  text-align: left;
+  align-items: left;
 }
 .tooltip {
   position: absolute;
   font-size: 12px;
   transform: translateX(-50%);
   padding: 5px 10px;
-  top: -9px;
+  top: -4px;
+  align-items: center;
   transition: opacity 0.3s ease-in-out;
 }
 .title-text {
   font-size: 2rem;
+  top: -1rem;
+  position: relative;
 }
 .skillscontainer {
   position: absolute;
   cursor: pointer;
-  text-align: center;
-  top: 20cm;
+  top: 24cm;
   width: 70%;
   align-items: center;
   left: 10%;
-  text-align: center;
-  margin: 50px 0;
+  margin: 50px 20px;
 }
 .skillsbar {
   flex: 4;
@@ -187,6 +206,8 @@
   left: 2%;
   align-items: left;
   text-align: center;
+  padding: 8px 0;
+  margin: 5px 0;
 }
 .skills-box {
   display: flex;
@@ -260,11 +281,15 @@
 }
 .certifications h5{
   font-size: 2rem;
+  top: 4rem;
+  position: relative;
 }
 .certifications p5 {
   font-size: 1.2rem;
   position: relative;
   display: flex;
+  top: 5rem;
+  left: 70px;
 }
 .card {
   border: 1px solid #ccc;

@@ -31,9 +31,9 @@ const HeroImg3 = () => {
               <p3>As a data entry associate, my assigned duties entailed combing and rearranging information from source documents to ensure accuracy and completeness. I expertly entered this data into prescribed computer databases, files, and forms ensuring that every single piece of information was in the right place. </p3>
             </div>
             <div className="subsahara">
-              <p1>2020 - 2021</p1>
-              <p2>Research Agent ~ Sub-sahara Research Services</p2>
-              <p3>▸Writing reports </p3>
+              <p1>2020 - 2023</p1>
+              <p2>Research Assistant ~ Sub-sahara Research Services</p2>
+              <p3>▸Writing reports <br/>▸fgfds <br/> fds</p3>
             </div>
           </div>
           <div className="skillscontainer">
@@ -158,9 +158,3 @@ const HeroImg3 = () => {
 };
 
 export default HeroImg3;
-<div style={{
-        width: '150px',
-        height: '150px',
-        backgroundSize: 'cover',
-        backgroundImage: `url(${require('../images/tree.jpg')})`,
-      }}></div>
