@@ -28,7 +28,7 @@
 }
 .socials {
   position: relative;
-  left: 20px;
+  left: 150px;
   bottom: 1cm;
 }
 .about-me {
@@ -47,18 +47,26 @@
   color: black;
   margin-bottom: 10rem;
 }
+.line {
+  border-bottom: 4px solid rgb(43, 43, 99);
+  display: block;
+  position: absolute;
+  top: 9.5cm;
+  width: 80%;
+  left: 10%;
+}
 .journey {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 19px;
   margin-left: -17%;
 }
 .journey h3 {
   font-size: 2rem;
   position: relative;
-  bottom: 47cm;
+  bottom: 45.5cm;
   left: 8%;
 }
 .techlink {
@@ -66,7 +74,7 @@
   color: black;
   text-align: left;
   position: relative;
-  top: -52cm;
+  top: -50cm;
   left: -7%;
   
 }
@@ -74,7 +82,7 @@
   font-size: 1.2rem;
   position: relative;
   top: 5cm;
-  color: rgb(253, 207, 3);
+  color: #9B59B6;
   left: 10%;
 }
 .techlink p2{
@@ -82,7 +90,7 @@
   position: relative;
   top: 5cm;
   left: 20%;
-  color: rgb(253, 207, 3);
+  color: #9B59B6;
 }
 .techlink p3 {
   font-size: 1.2rem;
@@ -96,7 +104,7 @@
 .apollo {
   font-size: 1.2rem;
   position: absolute;
-  top: 13cm;
+  top: 14.5cm;
   text-align: left;
   align-items: left;
   left: 7%;
@@ -106,7 +114,7 @@
   font-size: 1.2rem;
   position: relative;
   top: 1.5cm;
-  color: rgb(253, 207, 3);
+  color: #9B59B6;
   left: -1.5%;
 }
 .apollo p2 {
@@ -114,7 +122,7 @@
   position: relative;
   top: 1.5cm;
   left: 4%;
-  color: rgb(253, 207, 3)
+  color: #9B59B6;
 }
 .apollo p3 {
   font-size: 1.2rem;
@@ -127,19 +135,19 @@
 .stepwise {
   font-size: 1.2rem;
   position: absolute;
-  top: 18cm;
+  top: 19.2cm;
   align-items: left;
 }
 .stepwise p1 {
   font-size: 1.2rem;
   position: relative;
-  color:rgb(253, 207, 3);
+  color:#9B59B6;
   left: -32%;
 }
 .stepwise p2 {
   position: relative;
   left: -26%;
-  color:rgb(253, 207, 3);
+  color:#9B59B6;
 }
 .stepwise p3 {
   position: relative;
@@ -153,16 +161,16 @@
   font-size: 1.2em;
   position: absolute;
   display: flex;
-  top: 21.5cm;
+  top: 22.5cm;
   left: 5.5%;
 }
 .subsahara p1 {
   position: relative;
-  color:rgb(253, 207, 3);
+  color:#9B59B6;
 }
 .subsahara p2 {
   position: relative;
-  color:rgb(253, 207, 3);
+  color:#9B59B6;
   left: 11%;
 }
 .subsahara p3{
@@ -191,10 +199,10 @@
 .skillscontainer {
   position: absolute;
   cursor: pointer;
-  top: 24cm;
+  top: 25cm;
   width: 70%;
   align-items: center;
-  left: 10%;
+  left: 12%;
   margin: 50px 20px;
 }
 .skillsbar {
@@ -276,7 +284,7 @@
 }
 .certifications {
   position: absolute;
-  top: 170%;
+  top: 36cm;
   align-items: center;
 }
 .certifications h5{
