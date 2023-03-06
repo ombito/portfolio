@@ -348,7 +348,7 @@
   .hero-section {
     background-color: rgb(123, 209, 238);
     background-size: contain;
-    height: 350vh;
+    height: 450vh;
   }
   .socials {
     left: 0;
@@ -357,12 +357,12 @@
   }
   .line {
     position: relative;
-    margin-top: 95%;
+    margin-top: 9cm;
   }
   .journey h3 {
     font-size: 1.2rem;
     position: relative;
-    top: 6cm;
+    top: 1rem;
   }
  
   .copyright {
@@ -382,17 +382,18 @@
     margin-left: -5rem;
     margin-right: 0.5rem;
   }
-.journey{
+  .journey{
   display: flex;
-  top: 10cm;
+  top: 9cm;
   position: relative;
   opacity: none;
 }
 
   .techlink {
+    position: absolute;
     font-size: 1rem;
-    top: 2cm;
-    left: 1cm;
+    top: -3.5cm;
+    left: 6%;
   }
 
   .techlink p1 {
@@ -409,53 +410,56 @@
   .techlink p3 {
     font-size: 1rem;
     top: 5.5cm;
-    left: 1cm;
     width: 80%;
   }
 
   .apollo {
+    position: absolute;
     font-size: 1rem;
-    left: 1cm;
-    top: 14cm;
+    left: 6rem;
+    top: 8cm;
   }
 
   .apollo p1 {
     font-size: 1rem;
     top: 0;
-    left: 0;
+    left: -1rem;
   }
 
   .apollo p2 {
     font-size: 1rem;
-    left: 1cm;
+    right: 1rem;
     top: 0;
   }
 
   .apollo p3 {
+    position: absolute;
     font-size: 1rem;
     top: 1cm;
-    left: 1cm;
-    width: 200%;
+    width: 100%;
   }
 
   .stepwise {
+    position: relative;
     font-size: 1rem;
-    left: 1cm;
-    top: 18cm;
+    left: 8%;
+    top: 13cm;
   }
 
   .stepwise p1 {
+    position: relative;
     font-size: 1rem;
+    left: -3rem;
   }
 
   .stepwise p2 {
-    left: 1cm;
+    left: 0.7rem;
   }
 
   .stepwise p3 {
-    top: 1cm;
-    left: 1cm;
-    width: 200%;
+    top: 1rem;
+    left: 2rem;
+    width: 85%;
   }
 
   .subsahara {
@@ -477,20 +481,20 @@
     left: 1cm;
     width: 200%;
   }
-.skillscontainer {
+  .skillscontainer {
   top: 36cm;
 }
-.certifications {
+  .certifications {
   top: 47cm;
 }
-.footer-container {
+  .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin: auto;
 }
-.card {
+  .card {
   border: 1px solid #ccc;
   flex-direction: column;
   background-color: rgb(41, 151, 41);
@@ -498,7 +502,7 @@
   flex-basis: 10%;
   border-radius: 10px;
 }
-.word p {
+  .word p {
   font-size: 1.2rem;
   position: absolute;
   top: 27.5cm;
@@ -506,14 +510,14 @@
   text-decoration: underline;
   font-weight: bold;
 }
-.word p4 {
+  .word p4 {
   font-size: 1.2rem;
   position: relative;
   top: 29cm;
   left: 10%;
   align-items: center;
 }
-.word p5 {
+  .word p5 {
   position: relative;
   top: 34.6cm;
   left: -30%;
