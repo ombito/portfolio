@@ -121,7 +121,7 @@
   font-size: 1.2rem;
   position: relative;
   top: 1.5cm;
-  left: 4%;
+  left: 3.5%;
   color: #9B59B6;
 }
 .apollo p3 {
@@ -137,16 +137,17 @@
   position: absolute;
   top: 19.2cm;
   align-items: left;
+  left: -1rem;
 }
 .stepwise p1 {
   font-size: 1.2rem;
   position: relative;
   color:#9B59B6;
-  left: -32%;
+  left: -34%;
 }
 .stepwise p2 {
   position: relative;
-  left: -26%;
+  left: -12.6cm;
   color:#9B59B6;
 }
 .stepwise p3 {
@@ -202,7 +203,7 @@
   top: 25cm;
   width: 70%;
   align-items: center;
-  left: 12%;
+  left: 10%;
   margin: 50px 20px;
 }
 .skillsbar {
@@ -344,12 +345,26 @@
   left: -30%;
 }
 @media screen and (max-width: 450px) {
+  .hero-section {
+    background-color: rgb(123, 209, 238);
+    background-size: contain;
+    height: 350vh;
+  }
   .socials {
     left: 0;
     margin-top: 1rem;
     text-align: center;
   }
-
+  .line {
+    position: relative;
+    margin-top: 95%;
+  }
+  .journey h3 {
+    font-size: 1.2rem;
+    position: relative;
+    top: 6cm;
+  }
+ 
   .copyright {
     position: relative;
     bottom: 1rem;
@@ -369,11 +384,11 @@
   }
 .journey{
   display: flex;
-  margin-bottom: 35rem;
-  top: 15cm;
+  top: 10cm;
   position: relative;
   opacity: none;
 }
+
   .techlink {
     font-size: 1rem;
     top: 2cm;
@@ -393,15 +408,15 @@
 
   .techlink p3 {
     font-size: 1rem;
-    top: 6cm;
-    left: 2cm;
-    width: 200%;
+    top: 5.5cm;
+    left: 1cm;
+    width: 80%;
   }
 
   .apollo {
     font-size: 1rem;
     left: 1cm;
-    top: 10cm;
+    top: 14cm;
   }
 
   .apollo p1 {
@@ -426,7 +441,7 @@
   .stepwise {
     font-size: 1rem;
     left: 1cm;
-    top: 15cm;
+    top: 18cm;
   }
 
   .stepwise p1 {
@@ -446,7 +461,7 @@
   .subsahara {
     font-size: 1rem;
     left: 1cm;
-    top: 20cm;
+    top: 21cm;
   }
 
   .subsahara p1 {
@@ -462,5 +477,45 @@
     left: 1cm;
     width: 200%;
   }
-
+.skillscontainer {
+  top: 36cm;
+}
+.certifications {
+  top: 47cm;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+.card {
+  border: 1px solid #ccc;
+  flex-direction: column;
+  background-color: rgb(41, 151, 41);
+  padding: 5px;
+  flex-basis: 10%;
+  border-radius: 10px;
+}
+.word p {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 27.5cm;
+  align-items: left;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.word p4 {
+  font-size: 1.2rem;
+  position: relative;
+  top: 29cm;
+  left: 10%;
+  align-items: center;
+}
+.word p5 {
+  position: relative;
+  top: 34.6cm;
+  left: -30%;
+}
 }
