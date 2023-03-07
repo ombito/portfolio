@@ -12,7 +12,7 @@ const HeroImg2 = () => {
     </div>
     <div className="content">
         <h1>Projects</h1>
-        <p>Below you will find a selection of some of my most recent web development projects.</p>
+        <p>Below you will find a selection of some of my most recent web development and other projects.</p>
     </div>
   </div>
 };

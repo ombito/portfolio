@@ -346,7 +346,7 @@
   top: 40rem;
   left: -30%;
 }
-@media screen and (max-width: 450px) {
+@media screen (max-width: 450px) {
   .hero-section {
     background-color: rgb(123, 209, 238);
     background-size: contain;
@@ -358,7 +358,7 @@
     text-align: center;
   }
   .line {
-    position: relative;
+    position: absolute;
     margin-top: 9cm;
   }
   .journey h3 {
@@ -386,13 +386,14 @@
   }
   .journey{
   display: flex;
-  top: 9cm;
-  position: relative;
+  top: 19cm;
+  left: 0;
+  position: absolute;
   opacity: none;
 }
 
   .techlink {
-    position: absolute;
+    position: relative;
     font-size: 1rem;
     top: -3.5cm;
     left: 6%;
@@ -400,12 +401,13 @@
 
   .techlink p1 {
     font-size: 1rem;
-    top: 5cm;
+    top: 5.5cm;
+    left: 12%;
   }
 
   .techlink p2 {
     font-size: 1rem;
-    left: 2cm;
+    left: 0;
     top: 5cm;
   }
 
