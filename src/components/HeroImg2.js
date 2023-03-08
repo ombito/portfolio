@@ -2,12 +2,13 @@ import "./HeroImg2Styles.css";
 
 import React from 'react';
 
-import IntoImg from "../images/tech.jpg";
+import IntoImg from "../images/dark.jpg";
 import { Link } from "react-router-dom";
 
 const HeroImg2 = () => {
   return <div className="heroImg">
     <div className="mask">
+    <img className="into-img" src={IntoImg} alt="IntoImg"/> 
 
     </div>
     <div className="content">

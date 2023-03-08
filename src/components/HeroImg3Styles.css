@@ -109,19 +109,19 @@
   text-align: left;
   align-items: left;
   left: 7%;
-  right: 1%;
+  width: 90%;
 }
 .apollo p1 {
   font-size: 1.2rem;
   position: relative;
-  top: 1.5cm;
+  top: 2cm;
   color: #9B59B6;
   left: -1.5%;
 }
 .apollo p2 {
   font-size: 1.2rem;
   position: relative;
-  top: 1.5cm;
+  top: 2cm;
   left: 3.5%;
   color: #9B59B6;
 }
@@ -136,7 +136,7 @@
 .stepwise {
   font-size: 1.2rem;
   position: absolute;
-  top: 19.2cm;
+  top: 19.5cm;
   align-items: left;
   left: -1rem;
 }
@@ -157,14 +157,14 @@
   display: flex;
   left: 7%;
   text-align: left;
-  top: 0.6cm;
+  top: 0.1cm;
   width: 90%;
 }
 .subsahara {
   font-size: 1.2em;
   position: absolute;
   display: flex;
-  top: 22.5cm;
+  top: 22cm;
   left: 5.5%;
 }
 .subsahara p1 {
@@ -271,7 +271,7 @@
   background-color: #2ECC71; 
 }
 
-.skills-per.bootstrap {
+.skills-per.mysql {
   width: 80%;
   background-color: greenyellow; 
 }
@@ -282,7 +282,6 @@
   justify-content: center;
   position:absolute;
   left: 2cm;
-  right: 2cm;
   top: 60%;
 }
 .certifications {
@@ -321,7 +320,6 @@
   display: flex;
   bottom: 20%;
   position: relative;
-  width: 100%;
   align-items: left;
 }
 .word p {
@@ -374,10 +372,10 @@
     bottom: 1rem;
     left: 0;
   }
-.about-me {
+  .about-me {
   position: absolute;
-  left: 1rem;
-}
+  left: 0;
+} 
   .about-me h2 {
     font-size: 1.5rem;
     margin-bottom: 5rem;
@@ -386,7 +384,7 @@
   .about-me p {
     font-size: 1rem;
     margin-bottom: 2rem;
-    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }
   .journey{
   display: flex;

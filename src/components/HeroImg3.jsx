@@ -9,7 +9,7 @@ const HeroImg3 = () => {
 
       <div className="about-me">
         <h2>About Me</h2>
-        <p>As a cloud engineer, I have always been fascinated by the endless possibilities of cloud technology. With years of experience in the field, I have developed a deep understanding of how cloud solutions can be leveraged to drive business success and transformation. I have been involved in numerous projects that have helped organizations modernize their infrastructure, streamline their operations and enhance their customer experience. I am drawn to cloud technology as it is an exciting and ever-evolving field that is pushing the boundaries of what is possible. I spend most of my time in Nairobi, Kenya, where I enjoy spending time on my farm, the excellent coffee, and taking road trips to discover new places and experience what mother nature has to offer. I can't reiterate this enough: getting to the cloud must be the best decision or really anything elseUltimately, whether I am in the road or in the cloud I am unceasingly in pursuit of new opportunities to learn and advance my professional development. That, in a nutshell is what drives me everyday - cool stuff you probably didn't know about me.</p>
+        <p>As a cloud engineer, I have always been fascinated by the endless possibilities of cloud technology. With years of experience in the field, I have developed a deep understanding of how cloud solutions can be leveraged to drive business success and transformation. I have been involved in numerous projects that have helped organizations modernize their infrastructure, streamline their operations and enhance their customer experience. I am drawn to cloud technology as it is an exciting and ever-evolving field that is pushing the boundaries of what is possible. I spend most of my time in Nairobi, Kenya, where I enjoy spending time with my family, the excellent coffee, taking road trips to discover new places and experience what mother nature has to offer. Ultimately, whether I am in the road or in the cloud I am unceasingly in pursuit of new opportunities to learn and advance my professional development. That, in a nutshell is what drives me everyday - cool stuff you probably didn't know about me.</p>
         <div className="wrapper">
           <span class="line"></span>
           <div className="journey">
@@ -94,9 +94,9 @@ const HeroImg3 = () => {
               </div>
             </div>
             <div className="skills-box">
-              <span className="title">Blockchain Development</span>
+              <span className="title">MySQL</span>
               <div className="skillsbar">
-                <span className="skills-per bootstrap">
+                <span className="skills-per mysql">
                   <span className="tooltip">80%</span>
                 </span>
               </div>
