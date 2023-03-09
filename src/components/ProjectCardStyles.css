@@ -71,8 +71,6 @@
   justify-content: center;
   padding: 20px;
   color: #fff;
-  border-radius: 20px;
-  text-decoration: none;
   font-size: 1.2rem;
   transition: all 0.3s ease-in-out;
   margin-top: 60px;
@@ -82,8 +80,11 @@
   background-color: rgb(253, 249, 5);
   color: #333;
   cursor: pointer;
+  border-radius: 02%;
 }
-
+.btns {
+  border-radius: 40%;
+}
   @media (max-width: 740px) {
     body{
       height: auto;

@@ -101,7 +101,7 @@
     }
   
     .content {
-      
+      position: relative;
       text-align: left;
       padding: 2rem;
       color: #fff;
@@ -113,17 +113,20 @@
       margin-bottom: 1rem;
     }
   
-    .h2 {
-      font-size: 1rem;
+    .content h2 {
+      size: 1.5rem;
+      line-height: 50px;
       position: absolute;
-      margin-bottom: 5cm;
-      margin-left: 0.1cm;
+      top: 20rem;
     }
   
     p {
+      display: flex;
+      position: absolute;
       font-size: 14px;
-      margin-bottom: 1rem;
-      margin-left: 1rem;
+      top: 2cm;
+      margin-left: 0.5cm;
+      width: 80%;
     }
   
     .btn {

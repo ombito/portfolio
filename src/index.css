@@ -12,6 +12,7 @@ body {
 }
 
 h1,
+h2,
 h4,
 p,
 a {
@@ -24,12 +25,18 @@ ul{
 }
 
 .btn {
-  padding: 12px 32px;
+  padding: 12px 30px;
   font-size: 1rem;
   text-transform: uppercase;
   background: rgb(248, 217, 15);
   color: #222;
   border: 1px solid #fff;
-  font-weight: 600;
+  font-weight: 800;
   cursor: pointer;
+}
+@media screen { (max-width: 500px)
+  .btn {
+    font-size: 0.8rem;
+  }
+  
 }
