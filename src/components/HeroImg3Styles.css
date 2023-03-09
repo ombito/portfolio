@@ -344,7 +344,7 @@
   top: 40rem;
   left: -30%;
 }
-@media screen (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .hero-section {
     display: flex;
     flex-direction: column;
@@ -511,8 +511,9 @@
   align-items: flex-start;
 }
   .card {
-  width: 100%;
+  width: 70%;
   margin-bottom: 20px;
+  padding: 10px 20px;
 }
   .word p {
   font-size: 1.2rem;
