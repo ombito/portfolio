@@ -6,17 +6,18 @@ import Project from "./routes/Project";
 import Contact from "./routes/Contact";
 
 import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/project" element={<Project />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
-    </>
+    <><Navbar /><>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </></>
   );
 }
 

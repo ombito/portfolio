@@ -8,7 +8,6 @@ import HeroImg3 from '../components/HeroImg3';
 const About = () => {
   return (
     <div>
-      <Navbar />
       <HeroImg3 />
       <Footer />
     </div>

@@ -32,7 +32,7 @@ const HeroImg3 = () => {
             <div className="subsahara">
               <p1>2020 - 2023</p1>
               <p2>Research Assistant ~ Sub-sahara Research Services</p2>
-              <p3>▸Writing reports <br/>▸fgfds <br/> fds</p3>
+              <p3>▸Writing reports <br/>▸fgfdewkjsarfjgtrhlsakfdlvkdksl;apQWOEIURYIWIA;';lsdkjfdnm//z.x,mcnxmz,s <br/> fdyfsdajlkskdjfcskslkadjhhhdfgskjahs</p3>
             </div>
           </div>
           <div className="skillscontainer">

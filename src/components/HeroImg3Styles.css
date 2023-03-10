@@ -1,9 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
 .hero-section {
   background-color: rgb(123, 209, 238);
-  background-size: contain;
+  /* background-size: contain; */
   height: 270vh;
+  width: 100%;
 }
-
+/* body {
+  margin: 0;
+  padding: 0;
+} */
 .content {
   width: 100%;
   padding: 1rem;
@@ -181,7 +189,7 @@
   display: flex;
   position: relative;
   top: 1cm;
-  left: -80%;
+  left: -46%;
   text-align: left;
   align-items: left;
 }
@@ -351,6 +359,7 @@
     align-items: center;
     background-size: contain;
     height: 450vh;
+
   }
   .socials {
     left: 0;
@@ -359,7 +368,7 @@
   }
   .line {
     position: absolute;
-    margin-top: 9cm;
+    margin-top: 10cm;
   }
   .journey h3 {
     font-size: 1.2rem;
@@ -374,7 +383,7 @@
   }
   .about-me {
   position: absolute;
-  left: 0;
+  width: 95%;
 } 
   .about-me h2 {
     font-size: 1.5rem;
@@ -384,14 +393,14 @@
   .about-me p {
     font-size: 1rem;
     margin-bottom: 2rem;
-    margin-left: 0.5rem;
+    margin-left: -5rem;
+    margin-right: 1rem;
   }
   .journey{
   display: flex;
   top: 19cm;
   left: 0;
   position: absolute;
-  opacity: none;
 }
 
   .techlink {
@@ -409,7 +418,7 @@
 
   .techlink p2 {
     font-size: 1rem;
-    left: 0;
+    left: 0rem;
     top: 5cm;
   }
 
@@ -420,90 +429,85 @@
   }
 
   .apollo {
-    position: absolute;
+    position: relative;
     font-size: 1rem;
-    left: 6rem;
-    top: 8cm;
+    top: 3cm;
+    left: 4rem;
   }
 
   .apollo p1 {
     font-size: 1rem;
-    top: 0;
+    top: 1.2rem;
     left: -1rem;
   }
 
   .apollo p2 {
     font-size: 1rem;
-    right: 1rem;
+    left: -6rem;
     top: 0;
   }
 
   .apollo p3 {
-    position: absolute;
     font-size: 1rem;
-    top: 1cm;
-    width: 100%;
+    top: 0.5cm;
+    width: 90%;
   }
 
   .stepwise {
     position: relative;
     font-size: 1rem;
     left: 8%;
-    top: 13cm;
+    top: 4cm;
   }
 
   .stepwise p1 {
     position: relative;
     font-size: 1rem;
     left: -3rem;
+    top: 1.2rem;
   }
 
   .stepwise p2 {
-    left: 0.7rem;
+    left: -8rem;
+    position: relative;
   }
 
   .stepwise p3 {
+    position: relative;
     top: 1rem;
     left: 2.4rem;
-    width: 85%;
-  }
-
-  .subsahara {
-    position: relative;
-    font-size: 1rem;
-    left: 9%;
-    top: 14cm;
-  }
-
-  .subsahara p1 {
-    font-size: 1rem;
-    align-items: left;
-    width: 100%;
-    left: 1rem;
-  }
-
-  .subsahara p2 {
-    left: 1rem;
-    width: 140%;
-  }
-
-  .subsahara p3 {
-    font-size: 1rem;
-    top: 1cm;
-    left: -80%;
+    width: 80%;
   }
   .skillscontainer {
-  top: 40cm;
+  top: 41cm;
 }
-  .certifications {
-  top: 51cm;
+.subsahara{
+  position: absolute;
+  left: 5rem;
+  font-size: 1rem;
+  top: 19.5cm;
+}
+.subsahara p1{
+  position: relative;
+  left: -7rem;
+  top: 1rem;
+  width: 20rem;
+}
+.subsahara p2 {
+  position: relative;
+  left: -20rem;
+  width: 20rem;
+}
+.subsahara p3 {
+  position: relative;
+  left: -41rem;
+  font-size: 1rem;
 }
   .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: auto;
 }
 .card-container {
   flex-direction: column;
@@ -534,5 +538,8 @@
   position: relative;
   top: 34.6cm;
   left: -30%;
+}
+.certifications {
+  top: 52cm;
 }
 }

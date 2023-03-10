@@ -12,6 +12,10 @@
 .header-bg {
     background-color: rgba(0, 0, 0, 0.82);
     transition: 0.1s;
+    background-size: 50%;
+}
+.header-bg h1 {
+    left: 50%;
 }
 .nav-menu {
   display: flex;
@@ -47,6 +51,9 @@
         z-index: -3;
         transition: 0.3s;
         cursor: pointer;
+    }
+    .header {
+        width: 100%
     }
     .nav-menu.active{
         left: auto;
