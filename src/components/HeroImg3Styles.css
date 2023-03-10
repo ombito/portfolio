@@ -368,7 +368,7 @@
   }
   .line {
     position: absolute;
-    margin-top: 10cm;
+    margin-top: 9.7cm;
   }
   .journey h3 {
     font-size: 1.2rem;
@@ -541,5 +541,9 @@
 }
 .certifications {
   top: 52cm;
+}
+.certifications p5{
+  left: 0;
+  font-size: 1rem;
 }
 }
