@@ -358,7 +358,7 @@
     flex-direction: column;
     align-items: center;
     background-size: contain;
-    height: 450vh;
+    height: 460vh;
 
   }
   .socials {
@@ -413,12 +413,12 @@
   .techlink p1 {
     font-size: 1rem;
     top: 5.5cm;
-    left: 12%;
+    left: 11%;
   }
 
   .techlink p2 {
     font-size: 1rem;
-    left: 0rem;
+    left: -0.5rem;
     top: 5cm;
   }
 
@@ -443,7 +443,7 @@
 
   .apollo p2 {
     font-size: 1rem;
-    left: -6rem;
+    left: -6.3rem;
     top: 0;
   }
 
@@ -463,12 +463,12 @@
   .stepwise p1 {
     position: relative;
     font-size: 1rem;
-    left: -3rem;
+    left: -3.6rem;
     top: 1.2rem;
   }
 
   .stepwise p2 {
-    left: -8rem;
+    left: -9rem;
     position: relative;
   }
 
@@ -479,7 +479,7 @@
     width: 80%;
   }
   .skillscontainer {
-  top: 41cm;
+  top: 42cm;
 }
 .subsahara{
   position: absolute;
@@ -489,35 +489,46 @@
 }
 .subsahara p1{
   position: relative;
-  left: -7rem;
-  top: 1rem;
+  left: -8rem;
+  top: 2rem;
   width: 20rem;
 }
 .subsahara p2 {
   position: relative;
-  left: -20rem;
+  left: -21rem;
   width: 20rem;
 }
 .subsahara p3 {
   position: relative;
   left: -41rem;
   font-size: 1rem;
+  top: 3rem;
 }
-  .footer-container {
+.footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  top: auto;
 }
 .card-container {
-  flex-direction: column;
+  flex-direction: row ;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
   .card {
-  width: 70%;
-  margin-bottom: 20px;
-  padding: 10px 20px;
+  width: 60%;
+  margin: 10px 10px;
+  padding: 15px 10px;
+  flex-basis: 20%;
+  align-items: left;
+  position: relative;
+  left: -2rem;
+}
+.word {
+  position: relative;
+  top: -2cm;
 }
   .word p {
   font-size: 1.2rem;
@@ -540,7 +551,7 @@
   left: -30%;
 }
 .certifications {
-  top: 52cm;
+  top: 53cm;
 }
 .certifications p5{
   left: 0;

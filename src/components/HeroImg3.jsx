@@ -32,7 +32,7 @@ const HeroImg3 = () => {
             <div className="subsahara">
               <p1>2020 - 2023</p1>
               <p2>Research Assistant ~ Sub-sahara Research Services</p2>
-              <p3>▸Writing reports <br/>▸fgfdewkjsarfjgtrhlsakfdlvkdksl;apQWOEIURYIWIA;';lsdkjfdnm//z.x,mcnxmz,s <br/> fdyfsdajlkskdjfcskslkadjhhhdfgskjahs</p3>
+              <p3>▸Writing reports <br/>▸fgfdewkjsarfjgtrhlsakfdlvkdksl;ap<br/>▸fdyfsdajlkskdjfcskslkadjhhhdfgskjahs</p3>
             </div>
           </div>
           <div className="skillscontainer">
@@ -109,13 +109,13 @@ const HeroImg3 = () => {
             </div>
             <div className="card-container">
               <div className="card">
-                <p10>Aviatrix Certified Engineer (ACE)</p10>
+                <p10>Aviatrix Certified Engineer </p10>
               </div>
               <div className="card">
                 <p10>AWS Cloud Practitioner</p10>
               </div>
               <div className="card">
-                <p10>Azure Solutions Architect - Expert (AZ-305)</p10>
+                <p10>Azure Solutions Architect - Expert</p10>
               </div><div className="card">
                 <p10>Fortinet (NSE 1-3)</p10>
               </div>
@@ -123,25 +123,25 @@ const HeroImg3 = () => {
                 <p10>Sophos Central Endpoint and Server v3.0- Engineer</p10>
               </div>
               <div className="card">
-                <p10>Sophos Cloud Security</p10>
+                <p10>Veeam Technical Sales Proffessional (VMTSP)</p10>
               </div>
               <div className="card">
                 <p10>Veeam XaaS Professional (VMXP)</p10>
               </div>
               <div className="card">
-                <p10>Veeam Technical Sales Proffessional (VMTSP)</p10>
+                <p10>Sophos Cloud Security</p10>
               </div>
               <div className="card">
                 <p10>VTSP - VMware Cloud Foundation</p10>
               </div>
               <div className="card">
-                <p10>VTSP - VMware HCI (Hybrid-Convergence Infrastructure)</p10>
+                <p10>VTSP - VMware HCI </p10>
               </div>
               <div className="card">
                 <p10> SugarCRM Sales Specialist</p10>
               </div>
               <div className="card">
-                <p10> VTSP - VMware Server Virtualization</p10>
+                <p10> VMware Server Virtualization</p10>
               </div>
           </div>
           <div className="word">

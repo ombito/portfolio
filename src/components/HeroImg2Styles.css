@@ -39,6 +39,11 @@
     margin: 2rem 0;
   }
   @media screen and (max-width: 640px) {
+    .heroImg {
+      background-image: contain;
+      background-size: cover;
+      height: auto;
+    }
     .hero-img h1 {
         font-size: 2rem;
     }
