@@ -560,5 +560,8 @@
   font-size: 1rem;
 }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
+  .hero-section {
+    height: auto;
+  }
 }
