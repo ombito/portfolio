@@ -90,14 +90,14 @@
 .techlink p1{
   font-size: 1.2rem;
   position: relative;
-  top: 5cm;
+  top: 6cm;
   color: #9B59B6;
   left: 10%;
 }
 .techlink p2{
   font-size: 1.2rem;
   position: relative;
-  top: 6cm;
+  top: 5cm;
   left: 4%;
   color: #9B59B6;
 }
@@ -113,7 +113,7 @@
 .apollo {
   font-size: 1.2rem;
   position: absolute;
-  top: 14.5cm;
+  top: 15cm;
   text-align: left;
   align-items: left;
   left: 7%;
@@ -122,41 +122,41 @@
 .apollo p1 {
   font-size: 1.2rem;
   position: relative;
-  top: 2cm;
+  top: 3cm;
   color: #9B59B6;
-  left: -1.5%;
 }
 .apollo p2 {
   font-size: 1.2rem;
   position: relative;
   top: 2cm;
-  left: 3.5%;
+  left: -6.3rem;
   color: #9B59B6;
 }
 .apollo p3 {
   font-size: 1.2rem;
   position: relative;
-  top: 2cm;
+  top: 3cm;
   align-items: left;
   display: flex;
-  left: -1rem;
+  left: 0.1rem;
 }
 .stepwise {
   font-size: 1.2rem;
   position: absolute;
-  top: 19.5cm;
+  top: 21cm;
   align-items: left;
-  left: -1rem;
+  left: 0;
 }
 .stepwise p1 {
   font-size: 1.2rem;
   position: relative;
   color:#9B59B6;
   left: -34%;
+  top: 1cm;
 }
 .stepwise p2 {
   position: relative;
-  left: -12.6cm;
+  left: -16.9cm;
   color:#9B59B6;
 }
 .stepwise p3 {
@@ -165,31 +165,32 @@
   display: flex;
   left: 7%;
   text-align: left;
-  top: 0.1cm;
+  top: 1cm;
   width: 90%;
 }
 .subsahara {
   font-size: 1.2em;
   position: absolute;
   display: flex;
-  top: 22cm;
-  left: 5.5%;
+  top: 24.5cm;
+  left: 7%;
 }
 .subsahara p1 {
   position: relative;
   color:#9B59B6;
+  top: 2rem;
 }
 .subsahara p2 {
   position: relative;
   color:#9B59B6;
-  left: 11%;
+  left: -12%;
 }
 .subsahara p3{
   font-size: 1.2rem;
   display: flex;
   position: relative;
-  top: 1cm;
-  left: -46%;
+  top: 1.5cm;
+  left: -63%;
   text-align: left;
   align-items: left;
 }
@@ -210,7 +211,7 @@
 .skillscontainer {
   position: absolute;
   cursor: pointer;
-  top: 25cm;
+  top: 27cm;
   width: 70%;
   align-items: center;
   left: 10%;
@@ -294,7 +295,7 @@
 }
 .certifications {
   position: absolute;
-  top: 36cm;
+  top: 38cm;
   align-items: center;
 }
 .certifications h5{
@@ -326,7 +327,7 @@
 }
 .word {
   display: flex;
-  bottom: 20%;
+  top: -5rem;
   position: relative;
   align-items: left;
 }
